@@ -9,6 +9,7 @@
 	<element name="Hunter" type="Archetype" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_RANGER_HUNTER">
 		<supports>Ranger Archetype</supports>
 		<description>
+			<p class="flavor">Protect Nature and People from Destruction</p>
 			<p>You stalk prey in the wilds and elsewhere, using your abilities as a Hunter to protect nature and people everywhere from forces that would destroy them.</p>
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_HUNTERS_LORE" />
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_HUNTERS_PREY" />
@@ -28,6 +29,7 @@
 		</rules>
 	</element>
 	<element name="Hunter's Lore" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_HUNTERS_LORE">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_RANGER_24_HUNTERS_LORE</requirements>
 		<description>
 			<p>You can call on the forces of nature to reveal certain strengths and weaknesses of your prey. While a creature is marked by your <i>Hunter's Mark</i>, you know whether that creature has any Immunities, Resistances, or Vulnerabilities, and if the creature has any, you know what they are.</p>
 		</description>
@@ -36,6 +38,7 @@
 		</sheet>
 	</element>
 	<element name="Hunter's Prey" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_HUNTERS_PREY">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_RANGER_24_HUNTERS_PREY</requirements>
 		<description>
 			<p>You gain one of the following feature options of your choice. Whenever you finish a Short or Long Rest, you can replace the chosen option with the other one.</p>
 			<p class="indent"><b><i>Colossus Slayer.</i></b> Your tenacity can wear down even the most resilient foes. When you hit a creature with a weapon, the weapon deals an extra ld8 damage to the target if it's missing any of its Hit Points. You can deal this extra damage only once per turn.</p>
@@ -69,6 +72,7 @@
 		</sheet>
 	</element>
 	<element name="Defensive Tactics" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_DEFENSIVE_TACTICS">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_RANGER_24_DEFENSIVE_TACTICS</requirements>
 		<description>
 			<p>You gain one of the following feature options of your choice. Whenever you finish a Short or Long Rest, you can replace the chosen option with the other one.</p>
 			<p class="indent"><b><i>Escape the Horde.</i></b> Opportunity Attacks have Disadvantage against you.</p>
@@ -101,7 +105,8 @@
 			<description>When a creature hits you with an attack roll, that creature has Disadvantage on all other attack rolls against you this turn.</description>
 		</sheet>
 	</element>
-	<element name="Superior Hunter’s Prey" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_SUPERIOR_HUNTERS_PREY">
+	<element name="Superior Hunter's Prey" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_SUPERIOR_HUNTERS_PREY">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_RANGER_24_SUPERIOR_HUNTERS_PREY</requirements>
 		<description>
 			<p>Once per turn when you deal damage to a creature marked by your <i>Hunter's Mark</i>, you can also deal that spell’s extra damage to a different creature that you can see within 30 feet of the first creature.</p>
 		</description>
@@ -110,6 +115,7 @@
 		</sheet>
 	</element>
 	<element name="Superior Hunter's Defense" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_SUPERIOR_HUNTERS_DEFENSE">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_RANGER_24_SUPERIOR_HUNTERS_DEFENSE</requirements>
 		<description>
 			<p>When you take damage, you can take a Reaction to give yourself Resistance to that damage and any other damage of the same type until the end of the current turn.</p>		
 		</description>
@@ -117,5 +123,12 @@
 			<description>When you take damage, you can give yourself Resistance to that damage and any other damage of the same type until the end of the current turn.</description>
 		</sheet>
 	</element>
-	
+
+<!--Feature Replacement Grants-->
+	<element name="Hunter's Lore Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_RANGER_24_HUNTERS_LORE" />
+	<element name="Hunter's Prey Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_RANGER_24_HUNTERS_PREY" />
+	<element name="Defensive Tactics Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_RANGER_24_DEFENSIVE_TACTICS" />
+	<element name="Superior Hunter's Prey Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_RANGER_24_SUPERIOR_HUNTERS_PREY" />
+	<element name="Superior Hunter's Defense Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_RANGER_24_SUPERIOR_HUNTERS_DEFENSE" />	
+
 </elements>

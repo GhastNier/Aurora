@@ -8,6 +8,7 @@
     <element name="Beast Master" type="Archetype" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_RANGER_BEAST_MASTER">
 		<supports>Ranger Archetype</supports>
 		<description>
+			<p class="flavor">Bond with a Primal Beast</p>
 			<p>A Beast Master forms a mystical bond with a special animal, drawing on primal magic and a deep connection to the natural world.</p>
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_PRIMAL_COMPANION" />
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_EXCEPTIONAL_TRAINING" />
@@ -25,6 +26,7 @@
 		</rules>
 	</element>
 	<element name="Primal Companion" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_PRIMAL_COMPANION">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_RANGER_PRIMAL_COMPANION</requirements>
 		<description>
 			<p>You magically summon a primal beast, which draws strength from your bond with nature. Choose its stat block: <b>Beast of the Land</b>, <b>Beast of the Sea</b>, or <b>Beast of the Sky</b>. You also determine the kind of animal it is, choosing a kind appropriate for the stat block. Whatever beast you choose, it bears primal markings indicating its supernatural origin.</p>
             <p class="indent">The beast is Friendly to you and your allies and obeys your commands. It vanishes if you die.</p>
@@ -299,6 +301,7 @@
 	</element>
     <!-- -->
 	<element name="Exceptional Training" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_EXCEPTIONAL_TRAINING">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_RANGER_EXCEPTIONAL_TRAINING</requirements>
 		<description>
 			<p>When you take a Bonus Action to command your Primal Companion beast to take an action, you can also command it to take the Dash, Disengage, Dodge, or Help action using its Bonus Action.</p>
 			<p class="indent">In addition, whenever it hits with an attack roll and deals damage, it can deal your choice of Force damage or its normal damage type.</p>
@@ -309,6 +312,7 @@
 		</sheet>
 	</element>
 	<element name="Bestial Fury" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_BESTIAL_FURY">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_RANGER_BESTIAL_FURY</requirements>
 		<description>
 			<p>When you command your Primal Companion beast to take the Beast’s Strike action, the beast can use it twice.</p>
 			<p class="indent">In addition, the first time each turn it hits a creature under the effect of your <i>Hunter’s Mark</i> spell, the beast deals extra Force damage equal to the bonus damage of that spell.</p>
@@ -318,6 +322,7 @@
 		</sheet>
 	</element>
 	<element name="Share Spells" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_SHARE_SPELLS">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_RANGER_SHARE_SPELLS</requirements>
 		<description>
 			<p>When you cast a spell targeting yourself, you can also affect your Primal Companion beast with the spell if the beast is within 30 feet of you.</p>
 		</description>
@@ -326,4 +331,10 @@
 		</sheet>
 	</element>
 
+<!--Feature Replacement Grants-->
+	<element name="Primal Companion Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_RANGER_PRIMAL_COMPANION" />
+	<element name="Exceptional Training Divinity Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_RANGER_EXCEPTIONAL_TRAINING" />
+	<element name="Bestial Fury Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_RANGER_BESTIAL_FURY" />
+	<element name="Share Spells Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_RANGER_SHARE_SPELLS" />
+	
 </elements>

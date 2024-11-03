@@ -4,7 +4,7 @@
 		<name>Gloom Stalker</name>
 		<description>The Gloom Stalker from Player’s Handbook 2024</description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook">Wizards of the Coast</author>
-		<update version="0.0.4">
+		<update version="0.0.5">
 			<file name="ranger-gloomstalker.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/ranger-gloomstalker.xml" />
 		</update>
 	</info>
@@ -32,7 +32,7 @@
 		</rules>
 	</element>
 
-	<element name="Dread Ambusher" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_DREAD_AMBUSHER">
+	<element name="Level 3: Dread Ambusher" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_DREAD_AMBUSHER">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_RANGER_24_DREAD_AMBUSHER</requirements>
 		<description>
 			<p>You have mastered the art of creating fearsome ambushes, granting you the following benefits.</p>
@@ -40,7 +40,7 @@
 			<p class="indent"><b><i>Dreadful Strike.</i></b> When you attack a creature and hit it with a weapon, you can deal an extra 2d6 Psychic damage. You can use this benefit only once per turn, you can use it a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.</p>
 			<p class="indent"><b><i>Initiative Bonus.</i></b> When you roll Initiative, you can add your Wisdom modifier to the roll.</p>
 		</description>
-		<sheet>
+		<sheet alt="Dread Ambusher">
 			<description>You gain the following benefits:</description>
 		</sheet>
 		<rules>
@@ -84,7 +84,7 @@
 		</rules>
 	</element>
 	
-	<element name="Gloom Stalker Spells" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_GLOOM_STALKER_SPELLS">
+	<element name="Level 3: Gloom Stalker Spells" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_GLOOM_STALKER_SPELLS">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_RANGER_24_GLOOM_STALKER_SPELLS</requirements>
 		<description>
 			<p>When you reach a Ranger level specified in the Gloom Stalker Spells table, you thereafter always have the listed spells prepared.</p>
@@ -110,13 +110,13 @@
 		</rules>
 	</element>
 
-	<element name="Umbral Sight" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_UMBRAL_SIGHT">
+	<element name="Level 3: Umbral Sight" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_UMBRAL_SIGHT">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_RANGER_24_UMBRAL_SIGHT</requirements>
 		<description>
 			<p>You gain Darkvision with a range of 60 feet. If you already have Darkvision when you gain this feature, its range increases by 60 feet.</p>
 			<p class="indent">You are also adept at evading creatures that rely on Darkvision. While entirely in Darkness, you have the Invisible condition to any creature that relies on Darkvision to see you in that Darkness.</p>
 		</description>
-		<sheet>
+		<sheet alt="Umbral Sight">
 			<description>While in darkness, you are invisible to any creature that relies on darkvision to see you in that darkness.</description>
 		</sheet>
 		<rules>
@@ -127,25 +127,27 @@
 		</rules>
 	</element>
 
-	<element name="Iron Mind" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_IRON_MIND">
+	<element name="Level 7: Iron Mind" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_IRON_MIND">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_RANGER_24_IRON_MIND</requirements>
 		<description>
 			<p>You have honed your ability to resist mind-altering powers. You gain proficiency in Wisdom saving throws. If you already have this proficiency, you instead gain proficiency in Intelligence or Charisma saving throws (your choice).</p>
 		</description>
-		<sheet display="false"/>
+		<sheet alt="Iron Mind" >
+			<description>You gain proficiency in Wisdom saving throws. If you already have this proficiency, you instead gain proficiency in Intelligence or Charisma saving throws (your choice).</description>
+		</sheet>
 		<rules>
 			<select type="Proficiency" name="Saving Throw Proficiency (Gloom Stalker)" supports="ID_WOTC_PHB24_PROFICIENCY_SAVINGTHROW_WISDOM|ID_WOTC_PHB24_PROFICIENCY_SAVINGTHROW_INTELLIGENCE|ID_WOTC_PHB24_PROFICIENCY_SAVINGTHROW_CHARISMA" default="ID_WOTC_PHB24_PROFICIENCY_SAVINGTHROW_WISDOM" />
 		</rules>
 	</element>
 
-	<element name="Stalker's Flurry" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_STALKERS_FLURRY">
+	<element name="Level 11: Stalker's Flurry" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_STALKERS_FLURRY">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_RANGER_24_STALKERS_FLURRY</requirements>
 		<description>
 			<p>The Psychic damage of your Dreadful Strike becomes 2d8. In addition, when you use the Dreadful Strike effect of your Dread Ambusher feature, you can cause one of the following additional effects.</p>
 			<p class="indent"><b><i>Sudden Strike.</i></b> You can make another attack with the same weapon against a different creature that is within 5 feet of the original target and that is within the weapon’s range.</p>
 			<p class="indent"><b><i>Mass Fear.</i></b> The target and each creature within 10 feet of it must make a Wisdom saving throw against your spell save DC. On a failed save, a creature has the Frightened condition until the start of your next turn.</p>
 		</description>
-		<sheet>
+		<sheet alt="Stalker's Flurry">
 			<description>The Psychic damage of your Dreadful Strike becomes 2d8. In addition, when you use the Dreadful Strike effect, you can cause one of the following additional effects:</description>
 		</sheet>
 		<rules>
@@ -174,12 +176,12 @@
 		</sheet>
 	</element>
 
-	<element name="Shadowy Dodge" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_SHADOWY_DODGE">
+	<element name="Level 15: Shadowy Dodge" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_SHADOWY_DODGE">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_RANGER_24_SHADOWY_DODGE</requirements>
 		<description>
 			<p>When a creature makes an attack roll against you, you can take a Reaction to impose Disadvantage on that roll. Whether the attack hits or misses, you can then teleport up to 30 feet to an unoccupied space you can see.</p>
 		</description>
-		<sheet action="Reaction">
+		<sheet alt="Shadowy Dodge" action="Reaction">
 			<description>When a creature makes an attack roll against you, you can impose Disadvantage on that roll. Whether the attack hits or misses, you can then teleport up to 30 feet to an unoccupied space you can see.</description>
 		</sheet>
 	</element>

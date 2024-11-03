@@ -4,7 +4,7 @@
 		<name>Fey Wanderer</name>
 		<description>The Fey Wanderer from Tasha’s Cauldron of Everything</description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/tashas-cauldron-everything">Tasha’s Cauldron of Everything</author>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="ranger-fey.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/ranger-fey.xml" />
 		</update>
 	</info>
@@ -30,17 +30,17 @@
 			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_MISTY_WANDERER" level="15" />
 		</rules>
 	</element>
-	<element name="Dreadful Strikes" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_DREADFUL_STRIKES">
+	<element name="Level 3: Dreadful Strikes" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_DREADFUL_STRIKES">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_RANGER_24_DREADFUL_STRIKES</requirements>
 		<description>
 			<p>You can augment your weapon strikes with mind-scarring magic drawn from the murky hollows of the Feywild. When you hit a creature with a weapon, you can deal an extra ld4 Psychic damage to the target, which can take this extra damage only once per turn. The extra damage increases to ld6 when you reach Ranger level 11.</p>
 		</description>
-		<sheet>
+		<sheet alt="Dreadful Strikes">
 			<description>When you hit a creature with a weapon, you can deal an extra ld4 Psychic damage to the target, which can take this extra damage only once per turn.</description>
 			<description level="11">When you hit a creature with a weapon, you can deal an extra ld6 Psychic damage to the target, which can take this extra damage only once per turn.</description>
 		</sheet>
 	</element>
-	<element name="Fey Wanderer Spells" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_FEY_WANDERER_SPELLS">
+	<element name="Level 3: Fey Wanderer Spells" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_FEY_WANDERER_SPELLS">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_RANGER_24_FEY_WANDERER_SPELLS</requirements>
 		<description>
 			<p>When you reach a Ranger level specified in the Fey Wanderer Spells table, you thereafter always have the listed spells prepared.</p>
@@ -78,13 +78,13 @@
 			<grant type="Spell" id="ID_PHB24_SPELL_MISLEAD" level="17" spellcasting="Ranger" prepared="true"/> -->
 		</rules>
 	</element>
-	<element name="Otherworldly Glamour" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_OTHERWORLDLY_GLAMOUR">
+	<element name="Level 3: Otherworldly Glamour" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_OTHERWORLDLY_GLAMOUR">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_RANGER_24_OTHERWORLDLY_GLAMOUR</requirements>
 		<description>
 			<p>Whenever you make a Charisma check, you gain a bonus to the check equal to your Wisdom modifier (minimum of +1).</p>
 			<p class="indent">You also gain proficiency in one of these skills of your choice: Deception, Performance, or Persuasion</p>
 		</description>
-		<sheet display="false">
+		<sheet alt="Otherworldly Glamour">
 			<description>Whenever you make a Charisma check, you gain a +{{otherworldly glamour:charisma bonus}} bonus to the check.</description>
 		</sheet>
 		<rules>
@@ -97,24 +97,24 @@
 			<select type="Proficiency" name="Skill Proficiency, Otherworldly Glamour" supports="ID_WOTC_PHB24_PROFICIENCY_SKILL_DECEPTION|ID_WOTC_PHB24_PROFICIENCY_SKILL_PERFORMANCE|ID_WOTC_PHB24_PROFICIENCY_SKILL_PERSUASION" />
 		</rules>
 	</element>
-	<element name="Beguiling Twist" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_BEGUILING_TWIST">
+	<element name="Level 7: Beguiling Twist" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_BEGUILING_TWIST">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_RANGER_24_BEGUILING_TWIST</requirements>
 		<description>
 			<p>The magic of the Feywild guards your mind. You have Advantage on saving throws to avoid or end the Charmed or Frightened condition.</p>
             <p class="indent">In addition, whenever you or a creature you can see within 120 feet of you succeeds on a saving throw to avoid or end the Charmed or Frightened condition, you can take a Reaction to force a different creature you can see within 120 feet of yourself to make a Wisdom save against your spell save DC. On a failed save, the target is Charmed or Frightened (your choice) for 1 minute. The target repeats the save at the end of each of its turns, ending the effect on itself on a success.</p>
 		</description>
-		<sheet>
+		<sheet alt="Beguiling Twist">
 			<description>You have advantage on saving throws to avoid or end the Charmed or Frightened condition. 
 			In addition, whenever you or a creature you can see within 120ft of you succeeds on a saving throw to avoid or end the Charmed or Frightened condition, you can take a Reaction to force a different creature you can see within 120 feet of yourself to make a DC{{ranger:spellcasting:dc}} Wisdom save. On a failed save, the target is Charmed or Frightened (your choice) for 1 minute. The target can repeat the save at the end of each of its turns, ending the effect on itself on a successful save.</description>
 		</sheet>
 	</element>
-	<element name="Fey Reinforcements" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_FEY_REINFORCEMENTS">
+	<element name="Level 11: Fey Reinforcements" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_FEY_REINFORCEMENTS">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_RANGER_24_FEY_REINFORCEMENTS</requirements>
 		<description>
 			<p>You can cast <i>Summon Fey</i> without a Material component. You can also cast it once without a spell slot, and you regain the ability to cast it in this way when you finish a Long Rest.</p>
 			<p class="indent">Whenever you start casting the spell, you can modify it so that it doesn't require concentration. If you do so, the spell's duration becomes 1 minute for that casting.</p>
 		</description>
-		<sheet usage="1/Long Rest">
+		<sheet alt="Fey Reinforcements" usage="1/Long Rest">
 			<description>You can cast Summon Fey without a material component. You can also cast it once without a spell slot, and you regain the ability to do so when you finish a long rest. 
 			Whenever you start casting the spell, you can modify it so that it doesn't require concentration. If you do so, the spell's duration becomes 1 minute for that casting.</description>
 		</sheet>
@@ -122,13 +122,13 @@
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_SUMMON_FEY" spellcasting="Ranger" /> -->
 		</rules>
 	</element>
-	<element name="Misty Wanderer" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_MISTY_WANDERER">
+	<element name="Level 15: Misty Wanderer" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_MISTY_WANDERER">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_RANGER_24_MISTY_WANDERER</requirements>
 		<description>
 			<p>You can cast Misty Step without expending a spell slot. You can do so a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.</p>
 			<p class="indent">In addition, whenever you cast <i>Misty Step</i>, you can bring along one willing creature you can see within 5 feet of you. That creature teleports to an unoccupied space of your choice within 5 feet of your destination space.</p>
 		</description>
-		<sheet usage="{{misty wanderer:usage}}/Long Rest">
+		<sheet alt="Misty Wanderer" usage="{{misty wanderer:usage}}/Long Rest">
 			<description>You can cast Misty Step without expending a spell slot. 
 			Whenever you cast Misty Step, you can bring along one willing creature you can see within 5 feet of you. That creature teleports to an unoccupied space of your choice within 5 feet of your destination space.</description>
 		</sheet>

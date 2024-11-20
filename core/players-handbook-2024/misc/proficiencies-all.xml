@@ -928,7 +928,7 @@
 	</element>
 	
 	<!-- Gaming Set -->
-	<element name="Tool Proficiency (Gaming set)" type="Proficiency" source="Player’s Handbook"  id="ID_WOTC_PHB24_PROFICIENCY_GAMING_SET_PROFICIENCY_GAMING_SET">
+	<element name="Tool Proficiency (Gaming set)" type="Proficiency" source="Player’s Handbook 2024"  id="ID_WOTC_PHB24_PROFICIENCY_GAMING_SET_PROFICIENCY_GAMING_SET">
 		<supports></supports>
 		<requirements />
 		<description>
@@ -942,7 +942,7 @@
 		</rules>
 	</element>
 
-	<element name="Tool Proficiency (Dice set)" type="Proficiency" source="Player’s Handbook"  id="ID_WOTC_PHB24_PROFICIENCY_GAMING_SET_PROFICIENCY_DICE_SET">
+	<element name="Tool Proficiency (Dice set)" type="Proficiency" source="Player’s Handbook 2024"  id="ID_WOTC_PHB24_PROFICIENCY_GAMING_SET_PROFICIENCY_DICE_SET">
 		<supports>Tool, Gaming Set</supports>
 		<requirements />
 		<description>
@@ -950,7 +950,7 @@
 		</description>
 		<rules />
 	</element>
-	<element name="Tool Proficiency (Dragonchess set)" type="Proficiency" source="Player’s Handbook"  id="ID_WOTC_PHB24_PROFICIENCY_GAMING_SET_PROFICIENCY_DRAGONCHESS_SET">
+	<element name="Tool Proficiency (Dragonchess set)" type="Proficiency" source="Player’s Handbook 2024"  id="ID_WOTC_PHB24_PROFICIENCY_GAMING_SET_PROFICIENCY_DRAGONCHESS_SET">
 		<supports>Tool, Gaming Set</supports>
 		<requirements />
 		<description>
@@ -958,7 +958,7 @@
 		</description>
 		<rules />
 	</element>
-	<element name="Tool Proficiency (Playing card set)" type="Proficiency" source="Player’s Handbook"  id="ID_WOTC_PHB24_PROFICIENCY_GAMING_SET_PROFICIENCY_PLAYING_CARD_SET">
+	<element name="Tool Proficiency (Playing card set)" type="Proficiency" source="Player’s Handbook 2024"  id="ID_WOTC_PHB24_PROFICIENCY_GAMING_SET_PROFICIENCY_PLAYING_CARD_SET">
 		<supports>Tool, Gaming Set</supports>
 		<requirements />
 		<description>
@@ -966,7 +966,7 @@
 		</description>
 		<rules />
 	</element>
-	<element name="Tool Proficiency (Three-Dragon Ante set)" type="Proficiency" source="Player’s Handbook"  id="ID_WOTC_PHB24_PROFICIENCY_GAMING_SET_PROFICIENCY_THREE_DRAGON_ANTE_SET">
+	<element name="Tool Proficiency (Three-Dragon Ante set)" type="Proficiency" source="Player’s Handbook 2024"  id="ID_WOTC_PHB24_PROFICIENCY_GAMING_SET_PROFICIENCY_THREE_DRAGON_ANTE_SET">
 		<supports>Tool, Gaming Set</supports>
 		<requirements />
 		<description>

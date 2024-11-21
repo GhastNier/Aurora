@@ -151,7 +151,7 @@
 			<p class="indent"><b><i>Mass Fear.</i></b> The target and each creature within 10 feet of it must make a Wisdom saving throw against your spell save DC. On a failed save, a creature has the Frightened condition until the start of your next turn.</p>
 		</description>
 		<sheet alt="Stalker's Flurry">
-			<description>The Psychic damage of your Dreadful Strike becomes 2d8. In addition, when you use the Dreadful Strike effect, you can cause one of the following additional effects:</description>
+			<description>When you use the Dreadful Strike effect, you can cause one of the following additional effects:</description>
 		</sheet>
 		<rules>
 			<select type="Archetype Feature" name="Sudden Strike" supports="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_SUDDEN_STRIKE" default="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_SUDDEN_STRIKE" />

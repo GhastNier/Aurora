@@ -2,8 +2,9 @@
 <elements>
     <info>
 		<name>Fey Wanderer</name>
-		<description>The Fey Wanderer from Tasha’s Cauldron of Everything</description>
-		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/tashas-cauldron-everything">Tasha’s Cauldron of Everything</author>
+		<description>The Fey Wanderer subclass from the Player’s Handbook 2024.</description>
+		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
+
 		<update version="0.0.3">
 			<file name="ranger-fey.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/ranger-fey.xml" />
 		</update>
@@ -51,7 +52,8 @@
 				</thead>
 				<tr><td>3rd</td><td><em>Charm Person</em></td></tr>
 				<tr><td>5th</td><td><em>Misty Step</em></td></tr>
-				<tr><td>9th</td><td><em>Dispel Magic</em></td></tr>
+				<tr><td>9th</td><td><em>Summon Fey</em></td></tr>
+
 				<tr><td>13th</td><td><em>Dimension Door</em></td></tr>
 				<tr><td>17th</td><td><em>Mislead</em></td></tr>
 			</table>
@@ -71,11 +73,12 @@
 		</description>
 		<sheet display="false" />
 		<rules><!--
-			<grant type="Spell" id="ID_PHB24_SPELL_CHARM_PERSON" level="3" spellcasting="Ranger" prepared="true"/>
-			<grant type="Spell" id="ID_PHB24_SPELL_MISTY_STEP" level="5" spellcasting="Ranger" prepared="true"/>
-			<grant type="Spell" id="ID_PHB24_SPELL_DISPEL_MAGIC" level="9" spellcasting="Ranger" prepared="true"/>
-			<grant type="Spell" id="ID_PHB24_SPELL_DIMENSION_DOOR" level="13" spellcasting="Ranger" prepared="true"/>
-			<grant type="Spell" id="ID_PHB24_SPELL_MISLEAD" level="17" spellcasting="Ranger" prepared="true"/> -->
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_CHARM_PERSON" level="3" spellcasting="Ranger" prepared="true"/>
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_MISTY_STEP" level="5" spellcasting="Ranger" prepared="true"/>
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_SUMMON_FEY" level="9" spellcasting="Ranger" prepared="true"/>
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_DIMENSION_DOOR" level="13" spellcasting="Ranger" prepared="true"/>
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_MISLEAD" level="17" spellcasting="Ranger" prepared="true"/> -->
+
 		</rules>
 	</element>
 	<element name="Level 3: Otherworldly Glamour" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_OTHERWORLDLY_GLAMOUR">

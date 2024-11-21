@@ -2,7 +2,8 @@
 <elements>
 	<info>
 		<name>Gloom Stalker</name>
-		<description>The Gloom Stalker from Player’s Handbook 2024</description>
+		<description>The Gloom Stalker subclass from the Player’s Handbook 2024</description>
+
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook">Wizards of the Coast</author>
 		<update version="0.0.5">
 			<file name="ranger-gloomstalker.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/ranger-gloomstalker.xml" />
@@ -65,6 +66,8 @@
 		</description>
 		<sheet usage="1/Turn - {{strike}}/Long Rest">
 			<description>When you attack a creature and hit it with a weapon, you can deal an extra 2d6 Psychic damage. </description>
+			<description level="11">When you attack a creature and hit it with a weapon, you can deal an extra 2d8 Psychic damage. </description>
+
 		</sheet>
 		<rules>
 			<stat name="strike" value="1" bonus="strike" />

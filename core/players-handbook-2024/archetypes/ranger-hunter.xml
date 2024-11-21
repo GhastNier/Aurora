@@ -48,7 +48,8 @@
 			<p class="indent"><b><i>Horde Breaker.</i></b> Once on each of your turns when you make an attack with a weapon, you can make another attack with the same weapon against a different creature that is within 5 feet of the original target, that is within the weapon's range, and that you haven't attacked this turn.</p>
 		</description>
 		<sheet alt="Hunter's Prey">
-			<description>You gain one of the following feature option. Whenever you finish a Short or Long Rest, you can replace the chosen option with the other one.</description>
+			<description>You gain the following feature option. Whenever you finish a Short or Long Rest, you can replace the chosen option with the other one.</description>
+
 		</sheet>
 		<rules>
 			<select type="Archetype Feature" name="Hunter's Prey" supports="Hunters Pray" />
@@ -82,7 +83,8 @@
 			<p class="indent"><b><i>Multiattack Defense.</i></b> When a creature hits you with an attack roll, that creature has Disadvantage on all other attack rolls against you this turn.</p>
 		</description>
 		<sheet alt="Defensive Tactics">
-			<description>You gain one of the following feature option. Whenever you finish a Short or Long Rest, you can replace the chosen option with the other one.</description>
+			<description>You gain the following feature option. Whenever you finish a Short or Long Rest, you can replace the chosen option with the other one.</description>
+
 		</sheet>
 		<rules>
 			<select type="Archetype Feature" name="Defensive Tactics" supports="Defensive Tactics" />

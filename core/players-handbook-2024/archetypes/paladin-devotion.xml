@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
+		<name>Oath of Devotion</name>
+		<description>The Oath of Devotion subclass from the Player’s Handbook 2024.</description>
+		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
 		<update version="0.0.1">
 			<file name="paladin-devotion.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/paladin-devotion.xml" />
 		</update>
@@ -67,7 +70,7 @@
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_PALADIN_24_DEVOTION_SACRED_WEAPON</requirements>
 		<description>
 			<p>When you take the Attack action, you can expend one use of your Channel Divinity to imbue one Melee weapon that you are holding with positive energy. For 10 minutes or until you use this feature again, you add your Charisma modifier to attack rolls you make with that weapon (minimum bonus of +1), and each time you hit with it, you cause it to deal its normal damage type or Radiant damage.</p>
-			<p class="indent">The weapon also emits Bright Light in a 2O-font radius and Dim Light 20 feet beyond that.</p>
+			<p class="indent">The weapon also emits Bright Light in a 20-foot radius and Dim Light 20 feet beyond that.</p>
 			<p class="indent">You can end this effect early (no action required).</p> <p>This effect also ends if you aren't carrying the weapon.</p>
 		</description>
 		<sheet alt="Sacred Weapon" action="Action" usage="Channel Divinity">

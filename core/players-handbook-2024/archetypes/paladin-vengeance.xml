@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
+		<name>Oath of Vengeance</name>
+		<description>The Oath of Vengeance subclass from the Player’s Handbook 2024.</description>
+		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
 		<update version="0.0.1">
 			<file name="paladin-vengeance.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/paladin-vengeance.xml" />
 		</update>
@@ -65,10 +68,10 @@
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_PALADIN_24_VENGEANCE_VOW_OF_ENMITY</requirements>
 		<description>
 			<p>When you take the Attack action, you can expend one use of your Channel Divinity to utter a vow of enmity against a creature you can see within 30 feet of yourself. You have Advantage on attack rolls against the creature for 1 minute or until you use this feature again.</p>
-			<p class="indent">If the creature drops to O Hit Points before the vow ends, you can transfer the vow to a different creature within 30 feet of yourself (no action required).</p>
+			<p class="indent">If the creature drops to 0 Hit Points before the vow ends, you can transfer the vow to a different creature within 30 feet of yourself (no action required).</p>
 		</description>
 		<sheet alt="Vow of Enmity" usage="Channel Divinity">
-			<description>When you take the Attack action, you can utter a vow of enmity against a creature you can see within 30ft of you. You have Advantage on attack rolls against the creature for 1 minute or until you use this feature again. If the creature drops to OHP before the vow ends, you can transfer it to a different creature within 30ft of yourself.</description>
+			<description>When you take the Attack action, you can utter a vow of enmity against a creature you can see within 30ft of you. You have Advantage on attack rolls against the creature for 1 minute or until you use this feature again. If the creature drops to 0HP before the vow ends, you can transfer it to a different creature within 30ft of yourself.</description>
 		</sheet>
 	</element>
 	<element name="Level 7: Relentless Avenger" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_OOV_RELENTLESS_AVENGER">
@@ -77,7 +80,7 @@
 			<p>Your supernatural focus helps you close off a foe's retreat. When you hit a creature with an Opportunity Attack, you can reduce the creature's Speed to 0 until the end of the current turn. You can then move up to half your Speed as part of the same Reaction. This movement doesn't provoke Opportunity Attacks.</p>
 		</description>
 		<sheet alt="Relentless Avenger">
-			<description>When you hit a creature with an Opportunity Attack, you can reduce the creature's Speed to 0 until the end of the current turn. You can then move up to half your speed immediately after the attack and as part of the same reaction. This movement doesn't provoke opportunity attacks.</description>
+			<description>When you hit a creature with an Opportunity Attack, you can reduce the creature's Speed to 0 until the end of the current turn. You can then move up to half your Speed immediately after the attack and as part of the same reaction. This movement doesn't provoke Opportunity Attacks.</description>
 		</sheet>
 	</element>
 	<element name="Level 15: Soul of Vengeance" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_OOV_SOUL_OF_VENGEANCE">
@@ -99,8 +102,8 @@
 		<sheet alt="Avenging Angel" action="Bonus Action" usage="1/Long Rest">
 			<description>For 10 minutes or until you end them, you gain the following benefits:
 			• Flight - You have a Fly Speed of 60 feet, and can hover. &#13;
-			• Frightful Aura - Whenever an enemy starts its turn in your Aura of Protection, that creature must succeed on a WIS saving throw or have the Frightened condition for 1 minute or until it takes any damage. Attack rolls against the Frightened creature have Advantage. &#13;
-			You can expend a 5th-level spell slot to use this feature again.</description>
+			• Frightful Aura - Whenever an enemy starts its turn in your Aura of Protection, that creature must succeed on a Wisdom saving throw or have the Frightened condition for 1 minute or until it takes any damage. Attack rolls against the Frightened creature have Advantage. &#13;
+			You can expend a level 5 spell slot to use this feature again.</description>
 		</sheet>
 	</element>
 

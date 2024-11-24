@@ -272,11 +272,11 @@
 			<p>You gain the Ability Score Improvement feat (see chapter 5) or another feat of your choice for which you qualify. You gain this feature again at Ranger levels 8,12, and 16.</p>
 		</description>
 		<sheet display="false" />
-		<rules> <!-- 
-			<select type="Feat" name="Improvement Option (Ranger 4)" supports="  , 4" level="4" />
-			<select type="Feat" name="Improvement Option (Ranger 8)" supports="   , 8" level="8" />
-			<select type="Feat" name="Improvement Option (Ranger 12)" supports="   , 12" level="12" />
-			<select type="Feat" name="Improvement Option (Ranger 16)" supports="   , 16" level="16" /> -->
+		<rules> 
+			<select type="Feat" name="Improvement Option (Ranger 4)" level="4" />
+			<select type="Feat" name="Improvement Option (Ranger 8)" level="8" />
+			<select type="Feat" name="Improvement Option (Ranger 12)" level="12" />
+			<select type="Feat" name="Improvement Option (Ranger 16)" level="16" />
 		</rules>
 	</element>
 	<element name="Level 5: Extra Attack" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_RANGER_EXTRA_ATTACK">
@@ -383,8 +383,8 @@
 			<p>You gain an Epic Boon feat (see chapter 5) or another feat of your choice for which you qualify. Boon of Dimensional Travel is recommended.</p>
 		</description>
 		<sheet display="false"/>
-		<rules> <!-- to be changed 
-			<select type="Feat" name="Epic Boon (Ranger 19)" supports="   , 19"  /> -->
+		<rules>  
+			<select type="Feat" name="Improvement Option, Epic Boon (Ranger 19)" />
 		</rules>
 	</element>
 	<element name="Level 20: Foe Slayer" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_RANGER_FOE_SLAYER">

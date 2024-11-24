@@ -23,8 +23,8 @@
 		<rules>
 			<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_SKILL_HISTORY" /> 
 			<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_SKILL_PERSUASION" />
-			<grant type="Grants" id="ID_INTERNAL_GRANTS_BACKGROUND_ASI" />		<!--
-			<grant type="Feat" id="_________" />-->
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_BACKGROUND_ASI" />
+			<grant type="Feat" id="ID_WOTC_PHB24_FEAT_SKILLED" />
 			<select type="Proficiency" name="Gaming Set (Noble)" supports="Gaming Set" />
 			<select type="Ability Score Improvement" name="Ability Score Improvement Option (Noble)" supports="ID_WOTC_PHB24_ABILITY_SCORE_IMPROVEMENT_NOBLE_OPTION_1|ID_WOTC_PHB24_ABILITY_SCORE_IMPROVEMENT_NOBLE_OPTION_2" />		
 		</rules>

@@ -23,8 +23,8 @@
 		<rules>
 			<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_SKILL_ACROBATICS" /> 
 			<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_SKILL_PERFORMANCE" />
-			<grant type="Grants" id="ID_INTERNAL_GRANTS_BACKGROUND_ASI" />		<!--
-			<grant type="Feat" id="_________" />-->
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_BACKGROUND_ASI" />
+			<grant type="Feat" id="ID_WOTC_PHB24_FEAT_MUSICIAN" />
 			<select type="Proficiency" name="Musical Instrument (Entertainer)" supports="Tool, Musical Instrument" />
 			<select type="Ability Score Improvement" name="Ability Score Improvement Option (Entertainer)" supports="ID_WOTC_PHB24_ABILITY_SCORE_IMPROVEMENT_ENTERTAINER_OPTION_1|ID_WOTC_PHB24_ABILITY_SCORE_IMPROVEMENT_ENTERTAINER_OPTION_2" />		
 		</rules>

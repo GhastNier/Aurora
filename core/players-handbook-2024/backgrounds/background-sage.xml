@@ -23,8 +23,8 @@
 		<rules>
 			<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_SKILL_ARCANA" />
 			<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_SKILL_HISTORY" /> 
-			<grant type="Grants" id="ID_INTERNAL_GRANTS_BACKGROUND_ASI" />		<!--
-			<grant type="Feat" id="_________" />-->
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_BACKGROUND_ASI" />
+			<grant type="Feat" id="ID_WOTC_PHB24_FEAT_MAGIC_INITIATE" />
 			<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_CALLIGRAPHERS_SUPPLIES" />	
 			<select type="Ability Score Improvement" name="Ability Score Improvement Option (Sage)" supports="ID_WOTC_PHB24_ABILITY_SCORE_IMPROVEMENT_SAGE_OPTION_1|ID_WOTC_PHB24_ABILITY_SCORE_IMPROVEMENT_SAGE_OPTION_2" />		
 		</rules>

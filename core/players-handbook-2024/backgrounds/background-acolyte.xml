@@ -21,10 +21,10 @@
 			<p>You devoted yourself to service in a temple, either nestled in a town or secluded in a sacred grove. There you performed rites in honor of a god or pantheon. You served under a priest and studied religion. Thanks to your priest’s instruction and your own devotion, you also learned how to channel a modicum of divine power in service to your place of worship and the people who prayed there.</p>
 		</description>
 		<rules>
-			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INSIGHT" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_RELIGION" /> 
+			<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_SKILL_INSIGHT" />
+			<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_SKILL_RELIGION" />  
 			<grant type="Grants" id="ID_INTERNAL_GRANTS_BACKGROUND_ASI" />
-			<!-- <grant type="Feat" id="_________" /> -->
+			<grant type="Feat" id="ID_WOTC_PHB24_FEAT_MAGIC_INITIATE" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_CALLIGRAPHERS_SUPPLIES" />	
 			<select type="Ability Score Improvement" name="Ability Score Improvement Option (Acolyte)" supports="ID_WOTC_PHB24_ABILITY_SCORE_IMPROVEMENT_ACOLYTE_OPTION_1|ID_WOTC_PHB24_ABILITY_SCORE_IMPROVEMENT_ACOLYTE_OPTION_2" />
 		</rules>

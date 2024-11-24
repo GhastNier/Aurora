@@ -14,7 +14,7 @@
 			<table>
 				<tr><td><b>Ability Scores:</b></td><td> Dexterity, Intelligence, Wisdom</td></tr>
 				<tr><td><b>Feat:</b> </td><td> Skilled (see chapter 5)</td></tr>
-				<tr><td><b>Skill Proficiencies:</b></td><td> : Investigation and Perception</td></tr>
+				<tr><td><b>Skill Proficiencies:</b></td><td> Investigation and Perception</td></tr>
 				<tr><td><b>Tool Proficiency:</b></td><td> Calligrapher’s Supplies</td></tr>
 				<tr><td><b>Equipment:</b></td><td> <i>Choose A or B:</i> (A) Calligrapher's Supplies, Fine Clothes, Lamp, Oil (3 flasks). Parchment (12 sheets), 23 GP; or (B) 50 GP</td></tr>
 			</table>
@@ -23,8 +23,8 @@
 		<rules>
 			<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_SKILL_INVESTIGATION" />
 			<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_SKILL_PERCEPTION" /> 
-			<grant type="Grants" id="ID_INTERNAL_GRANTS_BACKGROUND_ASI" />		<!--
-			<grant type="Feat" id="_________" />-->
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_BACKGROUND_ASI" />
+			<grant type="Feat" id="ID_WOTC_PHB24_FEAT_SKILLED" />
 			<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_CALLIGRAPHERS_SUPPLIES" />	
 			<select type="Ability Score Improvement" name="Ability Score Improvement Option (Scribe)" supports="ID_WOTC_PHB24_ABILITY_SCORE_IMPROVEMENT_SCRIBE_OPTION_1|ID_WOTC_PHB24_ABILITY_SCORE_IMPROVEMENT_SCRIBE_OPTION_2" />		
 		</rules>

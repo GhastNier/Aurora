@@ -300,11 +300,11 @@
 			<p>You gain the Ability Score Improvement feat (see chapter 5) or another feat of your choice for which you qualify. You gain this feature again at Paladin levels 8, 12, and 16.</p>
 		</description>
 		<sheet alt="Ability Score Improvement" display="false" />
-		<rules> <!-- 
-			<select type="Feat" name="Improvement Option (Paladin 4)" supports="  , 4" level="4" />
-			<select type="Feat" name="Improvement Option (Paladin 8)" supports="   , 8" level="8" />
-			<select type="Feat" name="Improvement Option (Paladin 12)" supports="   , 12" level="12" />
-			<select type="Feat" name="Improvement Option (Paladin 16)" supports="   , 16" level="16" /> -->
+		<rules>
+			<select type="Feat" name="Improvement Option (Paladin 4)" level="4" />
+			<select type="Feat" name="Improvement Option (Paladin 8)" level="8" />
+			<select type="Feat" name="Improvement Option (Paladin 12)" level="12" />
+			<select type="Feat" name="Improvement Option (Paladin 16)" level="16" />
 		</rules>
 	</element>
 	<element name="Level 5: Extra Attack" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_EXTRA_ATTACK">
@@ -411,8 +411,8 @@
 			<p>You gain an Epic Boon feat (see chapter 5) or another feat of your choice for which you qualify. Boon of Truesight is recommended.</p>
 		</description>
 		<sheet alt="Epic Boon" display="false"/>
-		<rules> <!-- to be changed 
-			<select type="Feat" name="Epic Boon (Paladin 19)" supports="   , 19"  /> -->
+		<rules> 
+			<select type="Feat" name="Improvement Option, Epic Boon (Paladin 19)" />
 		</rules>
 	</element>
 

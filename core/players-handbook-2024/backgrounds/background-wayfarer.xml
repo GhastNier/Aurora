@@ -23,8 +23,8 @@
 		<rules>
 			<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_SKILL_INSIGHT" />
 			<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_SKILL_STEALTH" /> 
-			<grant type="Grants" id="ID_INTERNAL_GRANTS_BACKGROUND_ASI" />		<!--
-			<grant type="Feat" id="_________" />-->
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_BACKGROUND_ASI" />
+			<grant type="Feat" id="ID_WOTC_PHB24_FEAT_LUCKY" />
 			<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_THIEVES_TOOLS" />	
 			<select type="Ability Score Improvement" name="Ability Score Improvement Option (Wayfarer)" supports="ID_WOTC_PHB24_ABILITY_SCORE_IMPROVEMENT_WAYFARER_OPTION_1|ID_WOTC_PHB24_ABILITY_SCORE_IMPROVEMENT_WAYFARER_OPTION_2" />
 		</rules>

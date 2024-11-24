@@ -23,8 +23,8 @@
 		<rules>
 			<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_SKILL_DECEPTION" />
 			<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_SKILL_SLEIGHTOFHAND" /> 
-			<grant type="Grants" id="ID_INTERNAL_GRANTS_BACKGROUND_ASI" />		<!--
-			<grant type="Feat" id="_________" />-->
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_BACKGROUND_ASI" />
+			<grant type="Feat" id="ID_WOTC_PHB24_FEAT_SKILLED" />
 			<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_FORGERY_KIT" />	
 			<select type="Ability Score Improvement" name="Ability Score Improvement Option (Charlatan)" supports="ID_WOTC_PHB24_ABILITY_SCORE_IMPROVEMENT_CHARLATAN_OPTION_1|ID_WOTC_PHB24_ABILITY_SCORE_IMPROVEMENT_CHARLATAN_OPTION_2" />		
 		</rules>

@@ -2,14 +2,14 @@
 <elements>
 	<info>
 		<name>Elf</name>
-		<description>The Elf species from the Player’s Handbook (2024).</description>
+		<description>The Elf species from the Player’s Handbook 2024.</description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook">Wizards of the Coast</author>
 		<update version="0.0.1">
 			<file name="race-elf.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/races/race-elf.xml" />
 		</update>
 	</info>
 	
-	<element name="Elf" type="Race" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACE_ELF">
+	<element name="Elf" type="Race" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_RACE_ELF">
 		<description>
 			<p>Created by the god Corellon, the first elves could change their forms at will. They lost this ability when Corellon cursed them for plotting with the deity Lolth, who tried and failed to usurp Corellon’s dominion. When Lolth was cast into the Abyss, most elves renounced her and earned Corellon’s forgiveness, but that which Corellon had taken from them was lost forever.</p>
 			<p class="indent">No longer able to shape-shift at will, the elves retreated to the Feywild, where their sorrow was deepened by that plane’s influence. Over time, curiosity led many of them to explore other planes of existence, including worlds in the Material Plane.</p>
@@ -63,7 +63,7 @@
 		</rules>
 	</element>
 
-	<element name="Elven Lineage" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_ELF_ELVEN_LINEAGE">
+	<element name="Elven Lineage" type="Racial Trait" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_RACIAL_TRAIT_ELF_ELVEN_LINEAGE">
 		<description>
 			<p>You are part of a lineage that grants you supernatural abilities. Choose a lineage from the Elven Lineages table. You gain the level 1 benefit of that lineage.</p>
 			<p class="indent">When you reach character levels 3 and 5, you learn a higher-level spell, as shown on the table. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the lineage).</p>
@@ -86,7 +86,7 @@
 		</rules>
 	</element>
 
-	<element name="Drow" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_ELF_ELVEN_LINEAGE_DROW">
+	<element name="Drow" type="Racial Trait" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_RACIAL_TRAIT_ELF_ELVEN_LINEAGE_DROW">
 		<compendium display="false" />
 		<supports>Elven Lineage 2024</supports>
 		<description>
@@ -99,13 +99,13 @@
 		</sheet>
 		<rules>
 			<stat name="darkvision:range" value="120" bonus="base" />
-			<!-- <grant type="Spell" id="ID_WOTC_PHB24_SPELL_DANCING_LIGHTS" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_DANCING_LIGHTS" />
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_FAERIE_FIRE" level="3" />
-			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_DARKNESS" level="5" /> -->
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_DARKNESS" level="5" />
 		</rules>
 	</element>
 	
-	<element name="High Elf" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_ELF_ELVEN_LINEAGE_HIGH_ELF">
+	<element name="High Elf" type="Racial Trait" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_RACIAL_TRAIT_ELF_ELVEN_LINEAGE_HIGH_ELF">
 		<compendium display="false" />
 		<supports>Elven Lineage 2024</supports>
 		<description>
@@ -117,13 +117,13 @@
 			<description level="5">You know a cantrip from the Wizard spell list. You can replace this cantrip whenever you finish a long rest. You can cast the Detect Magic and Misty Step spells once per long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.</description>
 		</sheet>
 		<rules>
-			<!-- <select type="Spell" name="Wizard Cantrip (High Elf)" supports="Wizard&amp;&amp;0" default="ID_WOTC_PHB24_SPELL_PRESTIDIGITATION" />
+			<select type="Spell" name="Wizard Cantrip (High Elf)" supports="Wizard&amp;&amp;0" default="ID_WOTC_PHB24_SPELL_PRESTIDIGITATION" />
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_DETECT_MAGIC" level="3" />
-			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_MISTY_STEP" level="5" /> -->
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_MISTY_STEP" level="5" />
 		</rules>
 	</element>
 
-	<element name="Wood Elf" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_ELF_ELVEN_LINEAGE_WOOD_ELF">
+	<element name="Wood Elf" type="Racial Trait" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_RACIAL_TRAIT_ELF_ELVEN_LINEAGE_WOOD_ELF">
 		<compendium display="false" />
 		<supports>Elven Lineage 2024</supports>
 		<description>
@@ -136,13 +136,13 @@
 		</sheet>
 		<rules>
 			<stat name="innate speed" value="35" bonus="base" />
-			<!-- <grant type="Spell" id="ID_WOTC_PHB24_SPELL_DRUIDCRAFT" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_DRUIDCRAFT" />
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_LONGSTRIDER" level="3" />
-			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_PASS_WITHOUT_TRACE" level="5" /> -->
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_PASS_WITHOUT_TRACE" level="5" />
 		</rules>
 	</element>
 
-	<element name="Intelligence" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_ELF_ELVEN_LINEAGE_INTELLIGENCE">
+	<element name="Intelligence" type="Racial Trait" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_RACIAL_TRAIT_ELF_ELVEN_LINEAGE_INTELLIGENCE">
 		<compendium display="false" />
 		<description>
 			<p>Your spellcasting ability for these spells is Intelligence.</p>
@@ -152,7 +152,7 @@
 			<stat name="phb24:elven lineage:ability" value="Intelligence" inline="true" />
 		</rules>
 	</element>
-	<element name="Wisdom" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_ELF_ELVEN_LINEAGE_WISDOM">
+	<element name="Wisdom" type="Racial Trait" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_RACIAL_TRAIT_ELF_ELVEN_LINEAGE_WISDOM">
 		<compendium display="false" />
 		<description>
 			<p>Your spellcasting ability for these spells is Wisdom.</p>
@@ -162,7 +162,7 @@
 			<stat name="phb24:elven lineage:ability" value="Wisdom" inline="true" />
 		</rules>
 	</element>
-	<element name="Charisma" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_ELF_ELVEN_LINEAGE_CHARISMA">
+	<element name="Charisma" type="Racial Trait" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_RACIAL_TRAIT_ELF_ELVEN_LINEAGE_CHARISMA">
 		<compendium display="false" />
 		<description>
 			<p>Your spellcasting ability for these spells is Charisma.</p>
@@ -173,7 +173,7 @@
 		</rules>
 	</element>
 	
-	<element name="Fey Ancestry" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_ELF_FEY_ANCESTRY">
+	<element name="Fey Ancestry" type="Racial Trait" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_RACIAL_TRAIT_ELF_FEY_ANCESTRY">
 		<description>
 			<p>You have Advantage on saving throws you make to avoid or end the Charmed condition.</p>
 		</description>
@@ -182,13 +182,13 @@
 		</sheet>
 	</element>
 
-	<element name="Keen Senses" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_ELF_KEEN_SENSES">
+	<element name="Keen Senses" type="Racial Trait" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_RACIAL_TRAIT_ELF_KEEN_SENSES">
 		<description>
 			<p>You have proficiency in the Insight, Perception, or Survival skill.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
-			<select type="Proficiency" name="Keen Senses" supports="ID_PROFICIENCY_SKILL_INSIGHT||ID_PROFICIENCY_SKILL_PERCEPTION|ID_PROFICIENCY_SKILL_SURVIVAL" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<select type="Proficiency" name="Keen Senses" supports="ID_WOTC_PHB24_PROFICIENCY_SKILL_INSIGHT||ID_WOTC_PHB24_PROFICIENCY_SKILL_PERCEPTION|ID_WOTC_PHB24_PROFICIENCY_SKILL_SURVIVAL" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
 			<select type="Proficiency" name="Customized Skill Proficiency (Keen Senses)" supports="Skill" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
 		</rules>
 	</element>

@@ -2,14 +2,14 @@
 <elements>
 	<info>
 		<name>Tiefling</name>
-		<description>The Tiefling species from the Player’s Handbook (2024).</description>
+		<description>The Tiefling species from the Player’s Handbook 2024.</description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook">Wizards of the Coast</author>
 		<update version="0.0.1">
 			<file name="race-tiefling.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/races/race-tiefling.xml" />
 		</update>
 	</info>
 	
-	<element name="Tiefling" type="Race" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACE_TIEFLING">
+	<element name="Tiefling" type="Race" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_RACE_TIEFLING">
 		<description>
 			<p>Tieflings are either born in the Lower Planes or have fiendish ancestors who originated there. A tiefling (pronounced TEE-fling) is linked by blood to a devil, a demon, or some other Fiend. This connection to the Lower Planes is the tiefling’s fiendish legacy, which comes with the promise of power yet has no effect on the tiefling’s moral outlook.</p>
 			<p class="indent">A tiefling chooses whether to embrace or lament their fiendish legacy. The three legacies are described below.</p>
@@ -60,7 +60,7 @@
 		</rules>
 	</element>
 
-	<element name="Fiendish Legacy" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_TIEFLING_FIENDISH_LEGACY">
+	<element name="Fiendish Legacy" type="Racial Trait" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_RACIAL_TRAIT_TIEFLING_FIENDISH_LEGACY">
 		<description>
 			<p>You are the recipient of a legacy that grants you supernatural abilities. Choose a legacy from the Fiendish Legacies table. You gain the level 1 benefit of the chosen legacy.</p>
 			<p class="indent">When you reach character levels 3 and 5, you learn a higher-level spell, as shown on the table. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level.</p>
@@ -84,7 +84,7 @@
 		</rules>
 	</element>
 
-	<element name="Abyssal" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_TIEFLING_FIENDISH_LEGACY_ABYSSAL">
+	<element name="Abyssal" type="Racial Trait" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_RACIAL_TRAIT_TIEFLING_FIENDISH_LEGACY_ABYSSAL">
 		<compendium display="false" />
 		<supports>Fiendish Legacy 2024</supports>
 		<description>
@@ -97,14 +97,13 @@
 		</sheet>
 		<rules>
 			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON" />
-			<!--<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON" />
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_POISON_SPRAY" />
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_RAY_OF_SICKNESS" level="3" />
-			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_HOLD_PERSON" level="5" />-->
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_HOLD_PERSON" level="5" />
 		</rules>
 	</element>
 	
-	<element name="Chthonic" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_TIEFLING_FIENDISH_LEGACY_CHTHONIC">
+	<element name="Chthonic" type="Racial Trait" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_RACIAL_TRAIT_TIEFLING_FIENDISH_LEGACY_CHTHONIC">
 		<compendium display="false" />
 		<supports>Fiendish Legacy 2024</supports>
 		<description>
@@ -117,14 +116,13 @@
 		</sheet>
 		<rules>
 			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC" />
-			<!--<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC" />
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_CHILL_TOUCH" />
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_FALSE_LIFE" level="3" />
-			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_RAY_OF_ENFEEBLEMENT" level="5" />-->
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_RAY_OF_ENFEEBLEMENT" level="5" />
 		</rules>
 	</element>
 
-	<element name="Infernal" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_TIEFLING_FIENDISH_LEGACY_INFERNAL">
+	<element name="Infernal" type="Racial Trait" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_RACIAL_TRAIT_TIEFLING_FIENDISH_LEGACY_INFERNAL">
 		<compendium display="false" />
 		<supports>Fiendish Legacy 2024</supports>
 		<description>
@@ -137,13 +135,13 @@
 		</sheet>
 		<rules>
 			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" />
-			<!--<grant type="Spell" id="ID_WOTC_PHB24_SPELL_FIRE_BOLT" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_FIRE_BOLT" />
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_HELLISH_REBUKE" level="3" />
-			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_DARKNESS" level="5" />-->
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_DARKNESS" level="5" />
 		</rules>
 	</element>
 
-	<element name="Intelligence" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_TIEFLING_FIENDISH_LEGACY_INTELLIGENCE">
+	<element name="Intelligence" type="Racial Trait" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_RACIAL_TRAIT_TIEFLING_FIENDISH_LEGACY_INTELLIGENCE">
 		<compendium display="false" />
 		<description>
 			<p>Your spellcasting ability for these spells is Intelligence.</p>
@@ -153,7 +151,7 @@
 			<stat name="phb24:fiendish legacy:ability" value="Intelligence" inline="true" />
 		</rules>
 	</element>
-	<element name="Wisdom" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_TIEFLING_FIENDISH_LEGACY_WISDOM">
+	<element name="Wisdom" type="Racial Trait" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_RACIAL_TRAIT_TIEFLING_FIENDISH_LEGACY_WISDOM">
 		<compendium display="false" />
 		<description>
 			<p>Your spellcasting ability for these spells is Wisdom.</p>
@@ -163,7 +161,7 @@
 			<stat name="phb24:fiendish legacy:ability" value="Wisdom" inline="true" />
 		</rules>
 	</element>
-	<element name="Charisma" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_TIEFLING_FIENDISH_LEGACY_CHARISMA">
+	<element name="Charisma" type="Racial Trait" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_RACIAL_TRAIT_TIEFLING_FIENDISH_LEGACY_CHARISMA">
 		<compendium display="false" />
 		<description>
 			<p>Your spellcasting ability for these spells is Charisma.</p>
@@ -175,7 +173,7 @@
 	</element>
 	
 	
-	<element name="Otherworldly Presence" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_TIEFLING_OTHERWORLDLY_PRESENCE">
+	<element name="Otherworldly Presence" type="Racial Trait" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_RACIAL_TRAIT_TIEFLING_OTHERWORLDLY_PRESENCE">
 		<description>
 			<p>You know the <i>Thaumaturgy</i> cantrip. When you cast it with this trait, the spell uses the same spellcasting ability you use for your Fiendish Legacy trait.</p> 
 		</description>
@@ -183,7 +181,7 @@
 			<description>You know the Thaumaturgy cantrip. {{phb24:fiendish legacy:ability}} is your spellcasting ability for it.</description>
 		</sheet>
 		<rules>
-			<!--<grant type="Spell" id="ID_WOTC_PHB24_SPELL_THAUMATURGY" />-->
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_THAUMATURGY" />
 		</rules>
 	</element>
 

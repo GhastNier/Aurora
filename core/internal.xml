@@ -1188,7 +1188,7 @@
 	</element>
 
 	<!--PHB24 General Feat Ability Score Increase-->
-	<element name="Ability Score Increase +2 (Strength)" type="Ability Score Improvement" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_GENERAL_ASI_2_STRENGTH">
+	<element name="Ability Score Increase +2 (Strength)" type="Ability Score Improvement" source="Internal" id="ID_WOTC_PHB24_GENERAL_ASI_2_STRENGTH">
 		<compendium display="false" />
 		<supports>Feat ASI 2</supports>
 		<description>
@@ -1201,7 +1201,7 @@
 			<stat name="strength" value="2" alt="Ability Score Increase" />
 		</rules>
 	</element>
-	<element name="Ability Score Increase +2 (Dexterity)" type="Ability Score Improvement" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_GENERAL_ASI_2_DEXTERITY">
+	<element name="Ability Score Increase +2 (Dexterity)" type="Ability Score Improvement" source="Internal" id="ID_WOTC_PHB24_GENERAL_ASI_2_DEXTERITY">
 		<compendium display="false" />
 		<supports>Feat ASI 2</supports>
 		<description>
@@ -1214,7 +1214,7 @@
 			<stat name="dexterity" value="2" alt="Ability Score Increase" />
 		</rules>
 	</element>
-	<element name="Ability Score Increase +2 (Constitution)" type="Ability Score Improvement" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_GENERAL_ASI_2_CONSTITUTION">
+	<element name="Ability Score Increase +2 (Constitution)" type="Ability Score Improvement" source="Internal" id="ID_WOTC_PHB24_GENERAL_ASI_2_CONSTITUTION">
 		<compendium display="false" />
 		<supports>Feat ASI 2</supports>
 		<description>
@@ -1227,7 +1227,7 @@
 			<stat name="constitution" value="2" alt="Ability Score Increase" />
 		</rules>
 	</element>
-	<element name="Ability Score Increase +2 (Intelligence)" type="Ability Score Improvement" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_GENERAL_ASI_2_INTELLIGENCE">
+	<element name="Ability Score Increase +2 (Intelligence)" type="Ability Score Improvement" source="Internal" id="ID_WOTC_PHB24_GENERAL_ASI_2_INTELLIGENCE">
 		<compendium display="false" />
 		<supports>Feat ASI 2</supports>
 		<description>
@@ -1240,7 +1240,7 @@
 			<stat name="intelligence" value="2" alt="Ability Score Increase" />
 		</rules>
 	</element>
-	<element name="Ability Score Increase +2 (Wisdom)" type="Ability Score Improvement" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_GENERAL_ASI_2_WISDOM">
+	<element name="Ability Score Increase +2 (Wisdom)" type="Ability Score Improvement" source="Internal" id="ID_WOTC_PHB24_GENERAL_ASI_2_WISDOM">
 		<compendium display="false" />
 		<supports>Feat ASI 2</supports>
 		<description>
@@ -1253,7 +1253,7 @@
 			<stat name="wisdom" value="2" alt="Ability Score Increase" />
 		</rules>
 	</element>
-	<element name="Ability Score Increase +2 (Charisma)" type="Ability Score Improvement" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_GENERAL_ASI_2_CHARISMA">
+	<element name="Ability Score Increase +2 (Charisma)" type="Ability Score Improvement" source="Internal" id="ID_WOTC_PHB24_GENERAL_ASI_2_CHARISMA">
 		<compendium display="false" />
 		<supports>Feat ASI 2</supports>
 		<description>
@@ -1266,7 +1266,7 @@
 			<stat name="charisma" value="2" alt="Ability Score Increase" />
 		</rules>
 	</element>
-	<element name="Ability Score Increase +1 (Strength)" type="Ability Score Improvement" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_GENERAL_ASI_1_STRENGTH">
+	<element name="Ability Score Increase +1 (Strength)" type="Ability Score Improvement" source="Internal" id="ID_WOTC_PHB24_GENERAL_ASI_1_STRENGTH">
 		<compendium display="false" />
 		<supports>Feat ASI 1</supports>
 		<description>
@@ -1279,7 +1279,7 @@
 			<stat name="strength" value="1" alt="Ability Score Increase" />
 		</rules>
 	</element>
-	<element name="Ability Score Increase +1 (Dexterity)" type="Ability Score Improvement" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_GENERAL_ASI_1_DEXTERITY">
+	<element name="Ability Score Increase +1 (Dexterity)" type="Ability Score Improvement" source="Internal" id="ID_WOTC_PHB24_GENERAL_ASI_1_DEXTERITY">
 		<compendium display="false" />
 		<supports>Feat ASI 1</supports>
 		<description>
@@ -1292,7 +1292,7 @@
 			<stat name="dexterity" value="1" alt="Ability Score Increase" />
 		</rules>
 	</element>
-	<element name="Ability Score Increase +1 (Constitution)" type="Ability Score Improvement" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_GENERAL_ASI_1_CONSTITUTION">
+	<element name="Ability Score Increase +1 (Constitution)" type="Ability Score Improvement" source="Internal" id="ID_WOTC_PHB24_GENERAL_ASI_1_CONSTITUTION">
 		<compendium display="false" />
 		<supports>Feat ASI 1</supports>
 		<description>
@@ -1305,7 +1305,7 @@
 			<stat name="constitution" value="1" alt="Ability Score Increase" />
 		</rules>
 	</element>
-	<element name="Ability Score Increase +1 (Intelligence)" type="Ability Score Improvement" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_GENERAL_ASI_1_INTELLIGENCE">
+	<element name="Ability Score Increase +1 (Intelligence)" type="Ability Score Improvement" source="Internal" id="ID_WOTC_PHB24_GENERAL_ASI_1_INTELLIGENCE">
 		<compendium display="false" />
 		<supports>Feat ASI 1</supports>
 		<description>
@@ -1318,7 +1318,7 @@
 			<stat name="intelligence" value="1" alt="Ability Score Increase" />
 		</rules>
 	</element>
-	<element name="Ability Score Increase +1 (Wisdom)" type="Ability Score Improvement" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_GENERAL_ASI_1_WISDOM">
+	<element name="Ability Score Increase +1 (Wisdom)" type="Ability Score Improvement" source="Internal" id="ID_WOTC_PHB24_GENERAL_ASI_1_WISDOM">
 		<compendium display="false" />
 		<supports>Feat ASI 1</supports>
 		<description>
@@ -1331,7 +1331,7 @@
 			<stat name="wisdom" value="1" alt="Ability Score Increase" />
 		</rules>
 	</element>
-	<element name="Ability Score Increase +1 (Charisma)" type="Ability Score Improvement" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_GENERAL_ASI_1_CHARISMA">
+	<element name="Ability Score Increase +1 (Charisma)" type="Ability Score Improvement" source="Internal" id="ID_WOTC_PHB24_GENERAL_ASI_1_CHARISMA">
 		<compendium display="false" />
 		<supports>Feat ASI 1</supports>
 		<description>
@@ -1346,7 +1346,7 @@
 	</element>
 
 <!--PHB24 Boon Ability Score Increase-->
-	<element name="Ability Score Increase (Strength)" type="Ability Score Improvement" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_BOON_ASI_STRENGTH">
+	<element name="Ability Score Increase (Strength)" type="Ability Score Improvement" source="Internal" id="ID_WOTC_PHB24_BOON_ASI_STRENGTH">
 		<compendium display="false" />
 		<supports>Boon Ability Score Increase</supports>
 		<requirements>[level:19]</requirements>
@@ -1361,7 +1361,7 @@
 			<stat name="strength:max" value="10" bonus="ability"/>
 		</rules>
 	</element>
-	<element name="Ability Score Increase (Dexterity)" type="Ability Score Improvement" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_BOON_ASI_DEXTERITY">
+	<element name="Ability Score Increase (Dexterity)" type="Ability Score Improvement" source="Internal" id="ID_WOTC_PHB24_BOON_ASI_DEXTERITY">
 		<compendium display="false" />
 		<supports>Boon Ability Score Increase</supports>
 		<requirements>[level:19]</requirements>
@@ -1376,7 +1376,7 @@
 			<stat name="dexterity:max" value="10" bonus="ability"/>
 		</rules>
 	</element>
-	<element name="Ability Score Increase (Constitution)" type="Ability Score Improvement" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_BOON_ASI_CONSTITUTION">
+	<element name="Ability Score Increase (Constitution)" type="Ability Score Improvement" source="Internal" id="ID_WOTC_PHB24_BOON_ASI_CONSTITUTION">
 		<compendium display="false" />
 		<supports>Boon Ability Score Increase</supports>
 		<description>
@@ -1390,7 +1390,7 @@
 			<stat name="constitution:max" value="10" bonus="ability"/>
 		</rules>
 	</element>
-	<element name="Ability Score Increase (Intelligence)" type="Ability Score Improvement" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_BOON_ASI_INTELLIGENCE">
+	<element name="Ability Score Increase (Intelligence)" type="Ability Score Improvement" source="Internal" id="ID_WOTC_PHB24_BOON_ASI_INTELLIGENCE">
 		<compendium display="false" />
 		<supports>Boon Ability Score Increase</supports>
 		<description>
@@ -1404,7 +1404,7 @@
 			<stat name="intelligence:max" value="10" bonus="ability"/>
 		</rules>
 	</element>
-	<element name="Ability Score Increase (Wisdom)" type="Ability Score Improvement" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_BOON_ASI_WISDOM">
+	<element name="Ability Score Increase (Wisdom)" type="Ability Score Improvement" source="Internal" id="ID_WOTC_PHB24_BOON_ASI_WISDOM">
 		<compendium display="false" />
 		<supports>Boon Ability Score Increase</supports>
 		<description>
@@ -1418,7 +1418,7 @@
 			<stat name="wisdom:max" value="10" bonus="ability"/>
 		</rules>
 	</element>
-	<element name="Ability Score Increase (Charisma)" type="Ability Score Improvement" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_BOON_ASI_CHARISMA">
+	<element name="Ability Score Increase (Charisma)" type="Ability Score Improvement" source="Internal" id="ID_WOTC_PHB24_BOON_ASI_CHARISMA">
 		<compendium display="false" />
 		<supports>Boon Ability Score Increase</supports>
 		<description>

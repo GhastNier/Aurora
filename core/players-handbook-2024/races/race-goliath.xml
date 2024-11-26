@@ -23,11 +23,11 @@
 			<p class="indent"><strong><em>Giant Ancestry.</em></strong> You are descended from Giants. Choose one of the following benefits—a supernatural boon from your ancestry; you can use the chosen benefit a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest:</p>
 			<ul class="unstyled">
 				<li style="margin-left:1em;text-indent:-1em;"><strong>Cloud’s Jaunt (Cloud Giant).</strong> As a Bonus Action, you magically teleport up to 30 feet to an unoccupied space you can see.</li>
-				<li style="margin-left:1em;text-indent:-1em;"><strong>Fire’s Burn (Fire Giant).</strong> When you hit a target with an attack roll and deal damage to it, you can also deal ldlO Fire damage to that target.</li>
-				<li style="margin-left:1em;text-indent:-1em;"><strong>Frost’s Chill (Frost Giant).</strong> When you hit a target with an attack roll and deal damage to it, you can also deal ld6 Cold damage to that target and reduce its Speed by 10 feet until the start of your next turn.</li>
+				<li style="margin-left:1em;text-indent:-1em;"><strong>Fire’s Burn (Fire Giant).</strong> When you hit a target with an attack roll and deal damage to it, you can also deal 1d10 Fire damage to that target.</li>
+				<li style="margin-left:1em;text-indent:-1em;"><strong>Frost’s Chill (Frost Giant).</strong> When you hit a target with an attack roll and deal damage to it, you can also deal 1d6 Cold damage to that target and reduce its Speed by 10 feet until the start of your next turn.</li>
 				<li style="margin-left:1em;text-indent:-1em;"><strong>Hill’s Tumble (Hill Giant).</strong> When you hit a Large or smaller creature with an attack roll and deal damage to it, you can give that target the Prone condition.</li>
-				<li style="margin-left:1em;text-indent:-1em;"><strong>Stone’s Endurance (Stone Giant).</strong> When you take damage, you can take a Reaction to roll ldl2. Add your Constitution modifier to the number rolled and reduce the damage by that total.</li>
-				<li style="margin-left:1em;text-indent:-1em;"><strong>Storm’s Thunder (Storm Giant).</strong> When you take damage from a creature within 60 feet of you, you can take a Reaction to deal ld8 Thunder damage to that creature.</li>
+				<li style="margin-left:1em;text-indent:-1em;"><strong>Stone’s Endurance (Stone Giant).</strong> When you take damage, you can take a Reaction to roll 1d12. Add your Constitution modifier to the number rolled and reduce the damage by that total.</li>
+				<li style="margin-left:1em;text-indent:-1em;"><strong>Storm’s Thunder (Storm Giant).</strong> When you take damage from a creature within 60 feet of you, you can take a Reaction to deal 1d8 Thunder damage to that creature.</li>
 			</ul>
 			<p class="indent"><strong><em>Large Form.</em></strong> Starting at character level 5, you can change your size to Large as a Bonus Action if you’re in a big enough space. This transformation lasts for 10 minutes or until you end it (no action required). For that duration, you have Advantage on Strength checks, and your Speed increases by 10 feet. Once you use this trait, you can’t use it again until you finish a Long Rest.</p> 
 			<p class="indent"><strong><em>Powerful Build.</em></strong> You have Advantage on any ability check you make to end the Grappled condition. You also count as one size larger when determining your carrying capacity.</p> 
@@ -77,19 +77,19 @@
 	<element name="Fire’s Burn (Fire Giant)" type="Racial Trait" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_RACIAL_TRAIT_GOLIATH_GIANT_ANCESTRY_FIRES_BURN">
 		<supports>Giant Ancestry 2024</supports>
 		<description>
-			<p>When you hit a target with an attack roll and deal damage to it, you can also deal ldlO Fire damage to that target.</p> 
+			<p>When you hit a target with an attack roll and deal damage to it, you can also deal 1d10 Fire damage to that target.</p> 
 		</description>
 		<sheet alt="Fire’s Burn" usage="{{proficiency}}/Long Rest">
-			<description>When you hit a target with an attack roll and deal damage to it, you can also deal ldlO Fire damage to that target.</description>
+			<description>When you hit a target with an attack roll and deal damage to it, you can also deal 1d10 Fire damage to that target.</description>
 		</sheet>
 	</element>
 	<element name="Frost’s Chill (Frost Giant)" type="Racial Trait" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_RACIAL_TRAIT_GOLIATH_GIANT_ANCESTRY_FROSTS_CHILL">
 		<supports>Giant Ancestry 2024</supports>
 		<description>
-			<p>When you hit a target with an attack roll and deal damage to it, you can also deal ld6 Cold damage to that target and reduce its Speed by 10 feet until the start of your next turn.</p> 
+			<p>When you hit a target with an attack roll and deal damage to it, you can also deal 1d6 Cold damage to that target and reduce its Speed by 10 feet until the start of your next turn.</p> 
 		</description>
 		<sheet alt="Frost’s Chill" usage="{{proficiency}}/Long Rest">
-			<description>When you hit a target with an attack roll and deal damage to it, you can also deal ld6 Cold damage to that target and reduce its Speed by 10 feet until the start of your next turn.</description>
+			<description>When you hit a target with an attack roll and deal damage to it, you can also deal 1d6 Cold damage to that target and reduce its Speed by 10 feet until the start of your next turn.</description>
 		</sheet>
 	</element>
 	<element name="Hill’s Tumble (Hill Giant)" type="Racial Trait" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_RACIAL_TRAIT_GOLIATH_GIANT_ANCESTRY_HILLS_TUMBLE">
@@ -104,19 +104,19 @@
 	<element name="Stone’s Endurance (Stone Giant)" type="Racial Trait" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_RACIAL_TRAIT_GOLIATH_GIANT_ANCESTRY_STONES_ENDURANCE">
 		<supports>Giant Ancestry 2024</supports>
 		<description>
-			<p>When you take damage, you can take a Reaction to roll ldl2. Add your Constitution modifier to the number rolled and reduce the damage by that total.</p> 
+			<p>When you take damage, you can take a Reaction to roll 1d12. Add your Constitution modifier to the number rolled and reduce the damage by that total.</p> 
 		</description>
 		<sheet alt="Stone’s Endurance" action="Reaction" usage="{{proficiency}}/Long Rest">
-			<description>When you take damage, you can take a Reaction to roll ldl2. Add your Constitution modifier to the number rolled and reduce the damage by that total.</description>
+			<description>When you take damage, you can reduce the damage by 1d12+{{constitution:modifier}}</description>
 		</sheet>
 	</element>
 	<element name="Storm’s Thunder (Storm Giant)" type="Racial Trait" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_RACIAL_TRAIT_GOLIATH_GIANT_ANCESTRY_STORMS_THUNDER">
 		<supports>Giant Ancestry 2024</supports>
 		<description>
-			<p>When you take damage from a creature within 60 feet of you, you can take a Reaction to deal ld8 Thunder dam­age to that creature.</p> 
+			<p>When you take damage from a creature within 60 feet of you, you can take a Reaction to deal 1d8 Thunder dam­age to that creature.</p> 
 		</description>
 		<sheet alt="Storm’s Thunder" action="Reaction" usage="{{proficiency}}/Long Rest">
-			<description>When you take damage from a creature within 60 feet of you, you can take a Reaction to deal ld8 Thunder dam­age to that creature.</description>
+			<description>When you take damage from a creature within 60 feet of you, you can take a Reaction to deal 1d8 Thunder dam­age to that creature.</description>
 		</sheet>
 	</element>
 

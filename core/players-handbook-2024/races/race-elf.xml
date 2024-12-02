@@ -193,7 +193,7 @@
 		</rules>
 	</element>
 
-	<element name="Trance" type="Racial Trait" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_RACIAL_TRAIT_ELF_TRANCE">
+	<element name="Trance" type="Racial Trait" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_RACIAL_TRAIT_ELF_TRANCE">
 		<description>
 			<p>You don’t need to sleep, and magic can’t put you to sleep. You can finish a Long Rest in 4 hours if you spend those hours in a trancelike meditation, during which you retain consciousness.</p>
 		</description>

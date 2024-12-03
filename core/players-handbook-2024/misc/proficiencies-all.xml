@@ -33,7 +33,7 @@
 	</element>
 	<element name="Armor Proficiency (Heavy Armor)" type="Proficiency" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_PROFICIENCY_ARMOR_PROFICIENCY_HEAVY_ARMOR">
 		<description>
-			<p>Of all the armor categories, heavy armor offers the best protection. These suits of armor cover the entire body and are designed to stop a wide range of attacks. Only proficient w arriors can manage their weight and bulk.</p>
+			<p>Of all the armor categories, heavy armor offers the best protection. These suits of armor cover the entire body and are designed to stop a wide range of attacks. Only proficient warriors can manage their weight and bulk.</p>
 			<p class="indent">Heavy armor doesn’t let you add your Dexterity modifier to your Armor Class, but it also doesn’t penalize you if your Dexterity modifier is negative.</p>
 		</description>
 		<rules>

@@ -189,7 +189,7 @@
 	</element>
 	<element name="Ball Bearings" type="Item" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ITEM_BALLBEARINGS">
 		<description>
-			<p>As a Utilize action, you can spill Ball Bearings from their pouch. They spread to cover a level, 10-footsquare area within 10 feet of yourself. A creature that enters this area for the first time on a turn must succeed on a DC 10 Dexterity saving throw or have the Prone condition. It takes 10 minutes to recover the Ball Bearings.</p>
+			<p>As a Utilize action, you can spill Ball Bearings from their pouch. They spread to cover a level, 10-foot square area within 10 feet of yourself. A creature that enters this area for the first time on a turn must succeed on a DC 10 Dexterity saving throw or have the Prone condition. It takes 10 minutes to recover the Ball Bearings.</p>
 		</description>
 		<setters>
 			<set name="category">Adventuring Gear</set>
@@ -738,8 +738,8 @@
 	</element>
 	<element name="Manacles" type="Item" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ITEM_MANACLES">
 		<description>
-			<p>As a Utilize action, you can use Manacles to bind an unwilling Small or Medium creature within 5 feet of yourself that has the Grappled, Incapacitated, or Restrained condition if you succeed on a DC 13 Dexterity (Sleight of Hand) check. While bound, a creature has Disadvantage on attack rolls, and the creature is Restrained if the Manacles are attached to a chain or hook that is fixed in place. Escaping the Manacles requires a successful DC 20 Dexterity (Sleight of Hand) check as an a.cticn. Bursting them requires a successful DC 25 Strength (Athletics) check as an action.</p>
-			<p class="indent">Each set o' Manacles comes with a key. Without the key, a creature can use Thieves' Tools to pick the Manacles' lock with a successful DC 15 Dexterity (Sleight of Hand) check.</p>
+			<p>As a Utilize action, you can use Manacles to bind an unwilling Small or Medium creature within 5 feet of yourself that has the Grappled, Incapacitated, or Restrained condition if you succeed on a DC 13 Dexterity (Sleight of Hand) check. While bound, a creature has Disadvantage on attack rolls, and the creature is Restrained if the Manacles are attached to a chain or hook that is fixed in place. Escaping the Manacles requires a successful DC 20 Dexterity (Sleight of Hand) check as an action. Bursting them requires a successful DC 25 Strength (Athletics) check as an action.</p>
+			<p class="indent">Each set of Manacles comes with a key. Without the key, a creature can use Thieves' Tools to pick the Manacles' lock with a successful DC 15 Dexterity (Sleight of Hand) check.</p>
 		</description>
 		<setters>
 			<set name="category">Adventuring Gear</set>
@@ -798,8 +798,8 @@
 		<description>
 			<p>You can douse a creature, object, or space with Oil or use it as fuel, as detailed below.</p>
 			<p class="indent"><b><i>Dousing a Creature or an Object.</i></b> When you take the Attack action, you can replace one of your attacks with throwing an Oil flask. Target one creature or object within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or be covered in oil. If the target takes Fire damage before the oil dries (after 1 minute), the target takes an extra 5 Fire damage from burning oil.</p>
-			<p class="indent"><b><i>Dousing a Space.</i></b> You can take the Utilize action to pour an Oil flask on level ground to cover a 5-footsquare area within 5 feet of yourself. If lit, the oil burns until the end of the turn 2 rounds from when the oil was lit (or 12 seconds) and deals 5 Fire damage to any creature that enters the area or ends its turn there. A creature can take this damage only once per turn.</p>
-			<p class="indent"><b><i>Fuel.</i></b> Oil ser 'ns as fuel for Lamps and Lanterns. Once lit, a flask cf Oil burns for 6 hours in a Lamp or Lantern. That duration doesn't need to be consecutive; you can extinguish the burning Oil (as a Utilize action) and rekindle it again until it has burned for a total of 6 hours.</p>
+			<p class="indent"><b><i>Dousing a Space.</i></b> You can take the Utilize action to pour an Oil flask on level ground to cover a 5-foot square area within 5 feet of yourself. If lit, the oil burns until the end of the turn 2 rounds from when the oil was lit (or 12 seconds) and deals 5 Fire damage to any creature that enters the area or ends its turn there. A creature can take this damage only once per turn.</p>
+			<p class="indent"><b><i>Fuel.</i></b> Oil serves as fuel for Lamps and Lanterns. Once lit, a flask of Oil burns for 6 hours in a Lamp or Lantern. That duration doesn't need to be consecutive; you can extinguish the burning Oil (as a Utilize action) and rekindle it again until it has burned for a total of 6 hours.</p>
 		</description>
 		<setters>
 			<set name="category">Adventuring Gear</set>
@@ -940,7 +940,7 @@
 	</element>
 	<element name="Rations (1 day)" type="Item" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ITEM_RATIONS_1DAY">
 		<description>
-			<p>Rations consist of travel-ready food, includingjerky, dried fruit, hardtack, and nuts. See “Malnutrition” in the rules glossary for the risks of not eating.</p>
+			<p>Rations consist of travel-ready food, including jerky, dried fruit, hardtack, and nuts. See “Malnutrition” in the rules glossary for the risks of not eating.</p>
 		</description>
 		<setters>
 			<set name="category">Adventuring Gear</set>
@@ -1028,7 +1028,7 @@
 	</element>
 	<element name="Spell Scroll, Cantrip" type="Item" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ITEM_SPELLSCROLL_CANTRIP">
 		<description>
-			<p>A Spell Scroll (Cantrip) or Spell Scroll (Level 1) is a magic item that bears the words of a cantrip or level 1 spell, respectively, determined by the scroll's reator. If the spell is on your class's spell list, you can read the scroll and cast the spell using its normal casting time and without providing any Material components.</p>
+			<p>A Spell Scroll (Cantrip) or Spell Scroll (Level 1) is a magic item that bears the words of a cantrip or level 1 spell, respectively, determined by the scroll's creator. If the spell is on your class's spell list, you can read the scroll and cast the spell using its normal casting time and without providing any Material components.</p>
 		</description>
 		<setters>
 			<set name="category">Adventuring Gear</set>
@@ -1039,7 +1039,7 @@
 	</element>
 	<element name="Spell Scroll, Level 1" type="Item" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ITEM_SPELLSCROLL_LEVEL1">
 		<description>
-			<p>A Spell Scroll (Cantrip) or Spell Scroll (Level 1) is a magic item that bears the words of a cantrip or level 1 spell, respectively, determined by the scroll's reator. If the spell is on your class's spell list, you can read the scroll and cast the spell using its normal casting time and without providing any Material components.</p>
+			<p>A Spell Scroll (Cantrip) or Spell Scroll (Level 1) is a magic item that bears the words of a cantrip or level 1 spell, respectively, determined by the scroll's creator. If the spell is on your class's spell list, you can read the scroll and cast the spell using its normal casting time and without providing any Material components.</p>
 		</description>
 		<setters>
 			<set name="category">Adventuring Gear</set>

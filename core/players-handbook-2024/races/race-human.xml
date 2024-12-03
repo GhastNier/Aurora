@@ -56,7 +56,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<select type="Proficiency" name="Skill Proficiency (Skillful)" supports="Skill" />
+			<select type="Proficiency" name="Skill Proficiency (Skillful)" supports="Skill,!Expertise" />
 		</rules>
 	</element>
 

@@ -39,7 +39,7 @@
 	<element name="Level 3: Inspiring Smite" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_OOG_INSPIRING_SMITE">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_PALADIN_24_OOG_INSPIRING_SMITE</requirements>
 		<description>
-			<p>Immediately after you cast <i>Divine Smite</i> you can expend one use of your Channel Divinty and distribute Temporary Hit Points to creatures of your choice within 30 feet of yourself, which can include you.The total number of Temporary Hit Points equals 2d8 plus your Paladin level, divided among the chosen creatures however you like.</p>
+			<p>Immediately after you cast <i>Divine Smite</i> you can expend one use of your Channel Divinity and distribute Temporary Hit Points to creatures of your choice within 30 feet of yourself, which can include you. The total number of Temporary Hit Points equals 2d8 plus your Paladin level, divided among the chosen creatures however you like.</p>
 		</description>
 		<sheet alt="Inspiring Smite" usage="Channel Divinity">
 			<description>Immediately after you cast Divine Smite you can distribute up to 2d8+{{level:paladin}} Temporary HP to creatures of your choice within 30ft of yourself, which can include you, divided however you like.</description>
@@ -62,17 +62,17 @@
 			</table>
 		</description>
 		<sheet display="false" />
-		<rules> <!--
-			<grant type="Spell" id="ID_PHB_SPELL_GUIDING_BOLT" spellcasting="Paladin" level="3" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_HEROISM" spellcasting="Paladin" level="3" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_ENHANCE_ABILITY" spellcasting="Paladin" level="5" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_MAGIC_WEAPON" spellcasting="Paladin" level="5" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_HASTE" spellcasting="Paladin" level="9" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_PROTECTION_FROM_ENERGY" spellcasting="Paladin" level="9" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_COMPULSION" spellcasting="Paladin" level="13" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_FREEDOM_OF_MOVEMENT" spellcasting="Paladin" level="13" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_COMMUNE" spellcasting="Paladin" level="17" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_FLAME_STRIKE" spellcasting="Paladin" level="17" prepared="true" /> -->
+		<rules>
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_GUIDING_BOLT" spellcasting="Paladin" level="3" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_HEROISM" spellcasting="Paladin" level="3" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_ENHANCE_ABILITY" spellcasting="Paladin" level="5" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_MAGIC_WEAPON" spellcasting="Paladin" level="5" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_HASTE" spellcasting="Paladin" level="9" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_PROTECTION_FROM_ENERGY" spellcasting="Paladin" level="9" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_COMPULSION" spellcasting="Paladin" level="13" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_FREEDOM_OF_MOVEMENT" spellcasting="Paladin" level="13" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_LEGEND_LORE" spellcasting="Paladin" level="17" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_YOLANDES_REGAL_PRESENCE" spellcasting="Paladin" level="17" prepared="true" />
 		</rules>
 	</element>
 	<element name="Level 3: Peerless Athlete" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_OOG_PEERLESS_ATHLETE">

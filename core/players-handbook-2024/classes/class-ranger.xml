@@ -194,7 +194,7 @@
 			<description>You always have the Hunter's Mark spell prepared. You can cast it without expending a spell slot.</description>
 		</sheet>
 		<rules>
-			<!--<grant type="Spell" id="ID_WOTC_PHB24_SPELL_HUNTERS_MARK" prepared="true"/> -->
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_HUNTERS_MARK" spellcasting="Ranger" prepared="true"/> 
 			<stat name="favoredenemy:usage" value="2" />
 			<stat name="favoredenemy:usage" value="1" level="5"/>
 			<stat name="favoredenemy:usage" value="1" level="9"/>
@@ -245,6 +245,7 @@
 	<element name="Druidic Warrior" type="Feat" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_DRUIDIC_WARRIOR">
 		<requirements>ID_WOTC_PHB24_CLASS_FEATURE_RANGER_FIGHTING_STYLE</requirements>
 		<supports>Fighting Style</supports>
+		<prerequisite>Ranger Fighting Style Feature, Fighting Style Feat</prerequisite>
 		<description>
 			<p>You learn two Druid cantrips of your choice (see the Druid class's section for a list of Druid spells). Guidance and Starry Wisp are recommended. The chosen cantrips count as Ranger spells for you, and Wisdom is your spellcasting ability for them. Whenever you gain a Ranger level, you can replace one of these cantrips with another Druid cantrip.</p>
 		</description>
@@ -273,10 +274,10 @@
 		</description>
 		<sheet display="false" />
 		<rules> 
-			<select type="Feat" name="Improvement Option (Ranger 4)" level="4" />
-			<select type="Feat" name="Improvement Option (Ranger 8)" level="8" />
-			<select type="Feat" name="Improvement Option (Ranger 12)" level="12" />
-			<select type="Feat" name="Improvement Option (Ranger 16)" level="16" />
+			<select type="Feat" name="Ability Score Improvement (Ranger 4)" supports="!Boon" level="4" />
+			<select type="Feat" name="Ability Score Improvement (Ranger 8)" supports="!Boon" level="8" />
+			<select type="Feat" name="Ability Score Improvement (Ranger 12)" supports="!Boon" level="12" />
+			<select type="Feat" name="Ability Score Improvement (Ranger 16)" supports="!Boon" level="16" />
 		</rules>
 	</element>
 	<element name="Level 5: Extra Attack" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_RANGER_EXTRA_ATTACK">
@@ -321,7 +322,7 @@
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_RANGER_24_TIRELESS</requirements>
 		<description>
 			<p>Primal forces now help fuel you on your journeys, granting you the following benefits.</p>
-			<p class="indent"><b><i>Temporary Hit Points.</i></b> As a Magic action, you can give yourself a number of Temporary Hit Points equal to ld8 plus your Wisdom modifier (minimum of 1). You can use this action a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.</p>
+			<p class="indent"><b><i>Temporary Hit Points.</i></b> As a Magic action, you can give yourself a number of Temporary Hit Points equal to 1d8 plus your Wisdom modifier (minimum of 1). You can use this action a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.</p>
 			<p class="indent"><b><i>Decrease Exhaustion.</i></b> Whenever you finish a Short Rest, your Exhaustion level, if any, decreases by 1.</p>
 		</description>
 		<sheet alt="Tireless" action="Action" usage="{{tirelesstemp:hp}}/Long Rest">
@@ -384,7 +385,7 @@
 		</description>
 		<sheet display="false"/>
 		<rules>  
-			<select type="Feat" name="Improvement Option, Epic Boon (Ranger 19)" />
+			<select type="Feat" name="Epic Boon (Ranger 19)" level="19" />
 		</rules>
 	</element>
 	<element name="Level 20: Foe Slayer" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_RANGER_FOE_SLAYER">

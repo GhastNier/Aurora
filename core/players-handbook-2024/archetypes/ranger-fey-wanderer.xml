@@ -13,7 +13,8 @@
 		<supports>Ranger Archetype</supports>
 		<description>
 			<p class="flavor">Wield Fey Mirth and Fury</p>
-			<p>A fey mystique surrounds you, thanks to the boon of an archfey or a location in the Feywild that transformed you. However you gained fey magic, you are now a Fey Wanderer. Yourjoyful laughter brightens the hearts of the downtrodden, and your martial prowess strikes terror in your foes, for great is the mirth of the fey and dreadful is their fury.</p>
+			<p>A fey mystique surrounds you, thanks to the boon of an archfey or a location in the Feywild that transformed you. However you gained fey magic, you are now a Fey Wanderer. Your joyful laughter brightens the hearts of the downtrodden, and your martial prowess strikes terror in your foes, for great is the mirth of the fey and dreadful is their fury.</p>
+
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_DREADFUL_STRIKES" />
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_FEY_WANDERER_SPELLS" />
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_OTHERWORLDLY_GLAMOUR" />
@@ -34,11 +35,13 @@
 	<element name="Level 3: Dreadful Strikes" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_DREADFUL_STRIKES">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_RANGER_24_DREADFUL_STRIKES</requirements>
 		<description>
-			<p>You can augment your weapon strikes with mind-scarring magic drawn from the murky hollows of the Feywild. When you hit a creature with a weapon, you can deal an extra ld4 Psychic damage to the target, which can take this extra damage only once per turn. The extra damage increases to ld6 when you reach Ranger level 11.</p>
+			<p>You can augment your weapon strikes with mind-scarring magic drawn from the murky hollows of the Feywild. When you hit a creature with a weapon, you can deal an extra 1d4 Psychic damage to the target, which can take this extra damage only once per turn. The extra damage increases to 1d6 when you reach Ranger level 11.</p>
+
 		</description>
 		<sheet alt="Dreadful Strikes">
-			<description>When you hit a creature with a weapon, you can deal an extra ld4 Psychic damage to the target, which can take this extra damage only once per turn.</description>
-			<description level="11">When you hit a creature with a weapon, you can deal an extra ld6 Psychic damage to the target, which can take this extra damage only once per turn.</description>
+			<description>When you hit a creature with a weapon, you can deal an extra 1d4 Psychic damage to the target, which can take this extra damage only once per turn.</description>
+			<description level="11">When you hit a creature with a weapon, you can deal an extra 1d6 Psychic damage to the target, which can take this extra damage only once per turn.</description>
+
 		</sheet>
 	</element>
 	<element name="Level 3: Fey Wanderer Spells" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_FEY_WANDERER_SPELLS">
@@ -72,14 +75,14 @@
 			</table>
 		</description>
 		<sheet display="false" />
-		<rules><!--
+		<rules>
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_CHARM_PERSON" level="3" spellcasting="Ranger" prepared="true"/>
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_MISTY_STEP" level="5" spellcasting="Ranger" prepared="true"/>
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_SUMMON_FEY" level="9" spellcasting="Ranger" prepared="true"/>
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_DIMENSION_DOOR" level="13" spellcasting="Ranger" prepared="true"/>
-			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_MISLEAD" level="17" spellcasting="Ranger" prepared="true"/> -->
-
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_MISLEAD" level="17" spellcasting="Ranger" prepared="true"/>
 		</rules>
+
 	</element>
 	<element name="Level 3: Otherworldly Glamour" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_OTHERWORLDLY_GLAMOUR">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_RANGER_24_OTHERWORLDLY_GLAMOUR</requirements>

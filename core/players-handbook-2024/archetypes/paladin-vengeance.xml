@@ -13,8 +13,8 @@
 		<supports>Sacred Oath</supports>
 		<description>
 			<p class="flavor">Punish Evildoers at Any Cost</p>
-			<p>The Oath of Vengeance is a solemn commitment to punish those who have committed grievously evil acts. When evil armiesslaughter helpless villagers, when a tyrant defies the will of the gods, when a thieves' guild grows too violent, when a dragon rampages through the countryside — at times like these, paladins arise and swear an Oath of Vengeance to set right what has gone wrong.</p>
-			<p class="indent">These paladinsshare the following tenets:</p>
+			<p>The Oath of Vengeance is a solemn commitment to punish those who have committed grievously evil acts. When evil armies slaughter helpless villagers, when a tyrant defies the will of the gods, when a thieves' guild grows too violent, when a dragon rampages through the countryside — at times like these, paladins arise and swear an Oath of Vengeance to set right what has gone wrong.</p>
+			<p class="indent">These paladins share the following tenets:</p>
 			<ul>
 				<li>Show the wicked no mercy.</li>
 				<li>Fight injustice and its causes.</li>
@@ -52,16 +52,16 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-	<!--	<grant type="Spell" id="ID_PHB24_SPELL_BANE" level="3" spellcasting="Paladin" prepared="true"/>
-			<grant type="Spell" id="ID_PHB24_SPELL_HUNTERS_MARK" level="3" spellcasting="Paladin" prepared="true"/>
-			<grant type="Spell" id="ID_PHB24_SPELL_HOLD_PERSON" level="5" spellcasting="Paladin" prepared="true"/>
-			<grant type="Spell" id="ID_PHB24_SPELL_MISTY_STEP" level="5" spellcasting="Paladin" prepared="true"/>
-			<grant type="Spell" id="ID_PHB24_SPELL_HASTE" level="9" spellcasting="Paladin" prepared="true"/>
-			<grant type="Spell" id="ID_PHB24_SPELL_PROTECTION_FROM_ENERGY" level="9" spellcasting="Paladin" prepared="true"/>
-			<grant type="Spell" id="ID_PHB24_SPELL_BANISHMENT" level="13" spellcasting="Paladin" prepared="true"/>
-			<grant type="Spell" id="ID_PHB24_SPELL_DIMENSION_DOOR" level="13" spellcasting="Paladin" prepared="true"/>
-			<grant type="Spell" id="ID_PHB24_SPELL_HOLD_MONSTER" level="17" spellcasting="Paladin" prepared="true"/>
-			<grant type="Spell" id="ID_PHB24_SPELL_SCRYING" level="17" spellcasting="Paladin" prepared="true"/>  -->
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_BANE" level="3" spellcasting="Paladin" prepared="true"/>
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_HUNTERS_MARK" level="3" spellcasting="Paladin" prepared="true"/>
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_HOLD_PERSON" level="5" spellcasting="Paladin" prepared="true"/>
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_MISTY_STEP" level="5" spellcasting="Paladin" prepared="true"/>
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_HASTE" level="9" spellcasting="Paladin" prepared="true"/>
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_PROTECTION_FROM_ENERGY" level="9" spellcasting="Paladin" prepared="true"/>
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_BANISHMENT" level="13" spellcasting="Paladin" prepared="true"/>
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_DIMENSION_DOOR" level="13" spellcasting="Paladin" prepared="true"/>
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_HOLD_MONSTER" level="17" spellcasting="Paladin" prepared="true"/>
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_SCRYING" level="17" spellcasting="Paladin" prepared="true"/>
 		</rules>
 	</element>
 	<element name="Level 3: Vow of Enmity" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_OOV_VOW_OF_ENMITY">

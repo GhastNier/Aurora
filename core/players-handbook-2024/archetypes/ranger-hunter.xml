@@ -44,7 +44,8 @@
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_RANGER_24_HUNTERS_PREY</requirements>
 		<description>
 			<p>You gain one of the following feature options of your choice. Whenever you finish a Short or Long Rest, you can replace the chosen option with the other one.</p>
-			<p class="indent"><b><i>Colossus Slayer.</i></b> Your tenacity can wear down even the most resilient foes. When you hit a creature with a weapon, the weapon deals an extra ld8 damage to the target if it's missing any of its Hit Points. You can deal this extra damage only once per turn.</p>
+			<p class="indent"><b><i>Colossus Slayer.</i></b> Your tenacity can wear down even the most resilient foes. When you hit a creature with a weapon, the weapon deals an extra 1d8 damage to the target if it's missing any of its Hit Points. You can deal this extra damage only once per turn.</p>
+
 			<p class="indent"><b><i>Horde Breaker.</i></b> Once on each of your turns when you make an attack with a weapon, you can make another attack with the same weapon against a different creature that is within 5 feet of the original target, that is within the weapon's range, and that you haven't attacked this turn.</p>
 		</description>
 		<sheet alt="Hunter's Prey">
@@ -59,10 +60,12 @@
 		<compendium display="false" />
 		<supports>Hunters Pray</supports>
 		<description>
-			<p>Your tenacity can wear down even the most resilient foes. When you hit a creature with a weapon, the weapon deals an extra ld8 damage to the target if it's missing any of its Hit Points. You can deal this extra damage only once per turn.</p>
+			<p>Your tenacity can wear down even the most resilient foes. When you hit a creature with a weapon, the weapon deals an extra 1d8 damage to the target if it's missing any of its Hit Points. You can deal this extra damage only once per turn.</p>
+
 		</description>
 		<sheet usage="1/Turn">
-			<description>When you hit a creature with a weapon, the weapon deals an extra ld8 damage to the target if it's missing any of its Hit Points.</description>
+			<description>When you hit a creature with a weapon, the weapon deals an extra 1d8 damage to the target if it's missing any of its Hit Points.</description>
+
 		</sheet>
 	</element>
 	<element name="Horde Breaker" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_HUNTERS_PREY_HORDE_BREAKER">

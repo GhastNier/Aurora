@@ -63,16 +63,16 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-	<!--	<grant type="Spell" id="ID_PHB_SPELL_ENSNARING_STRIKE" level="3" spellcasting="Paladin" prepared="true"/>
-			<grant type="Spell" id="ID_PHB_SPELL_SPEAK_WITH_ANIMALS" level="3" spellcasting="Paladin" prepared="true"/>
-			<grant type="Spell" id="ID_PHB_SPELL_MISTY_STEP" level="5" spellcasting="Paladin" prepared="true"/>
-			<grant type="Spell" id="ID_PHB_SPELL_MOONBEAM" level="5" spellcasting="Paladin" prepared="true"/>
-			<grant type="Spell" id="ID_PHB_SPELL_PLANT_GROWTH" level="9" spellcasting="Paladin" prepared="true"/>
-			<grant type="Spell" id="ID_PHB_SPELL_PROTECTION_FROM_ENERGY" level="9" spellcasting="Paladin" prepared="true"/>
-			<grant type="Spell" id="ID_PHB_SPELL_ICE_STORM" level="13" spellcasting="Paladin" prepared="true"/>
-			<grant type="Spell" id="ID_PHB_SPELL_STONESKIN" level="13" spellcasting="Paladin" prepared="true"/>
-			<grant type="Spell" id="ID_PHB_SPELL_COMMUNE_WITH_NATURE" level="17" spellcasting="Paladin" prepared="true"/>
-			<grant type="Spell" id="ID_PHB_SPELL_TREE_STRIDE" level="17" spellcasting="Paladin" prepared="true"/> -->
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_ENSNARING_STRIKE" level="3" spellcasting="Paladin" prepared="true"/>
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_SPEAK_WITH_ANIMALS" level="3" spellcasting="Paladin" prepared="true"/>
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_MISTY_STEP" level="5" spellcasting="Paladin" prepared="true"/>
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_MOONBEAM" level="5" spellcasting="Paladin" prepared="true"/>
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_PLANT_GROWTH" level="9" spellcasting="Paladin" prepared="true"/>
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_PROTECTION_FROM_ENERGY" level="9" spellcasting="Paladin" prepared="true"/>
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_ICE_STORM" level="13" spellcasting="Paladin" prepared="true"/>
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_STONESKIN" level="13" spellcasting="Paladin" prepared="true"/>
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_COMMUNE_WITH_NATURE" level="17" spellcasting="Paladin" prepared="true"/>
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_TREE_STRIDE" level="17" spellcasting="Paladin" prepared="true"/>
 		</rules>
 	</element>
 	<element name="Level 7: Aura of Warding" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_OOTA_AURA_OF_WARDING">

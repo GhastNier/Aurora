@@ -45,7 +45,7 @@
 				<thead>
 					<tr><td>Paladin Level</td><td>Spells</td></tr>
 				</thead>
-				<tr><td>3rd</td><td><em>Protectionfrom Evil and Good, Shield of Faith</em></td></tr>
+				<tr><td>3rd</td><td><em>Protection from Evil and Good, Shield of Faith</em></td></tr>
 				<tr><td>5th</td><td><em>Aid, Zone of Truth</em></td></tr>
 				<tr><td>9th</td><td><em>Beacon of Hope, Dispel Magic</em></td></tr>
 				<tr><td>13th</td><td><em>Freedom of Movement, Guardian of Faith</em></td></tr>
@@ -53,17 +53,17 @@
 			</table>      
 		</description>
 		<sheet display="false" />
-		<rules> <!--
-			<grant type="Spell" id="ID_PHB24_SPELL_PROTECTION_FROM_EVIL_AND_GOOD" level="3" spellcasting="Paladin" prepared="true" />
-			<grant type="Spell" id="ID_PHB24_SPELL_SHIELD_OF_FAITH" level="3" spellcasting="Paladin" prepared="true" />
-			<grant type="Spell" id="ID_PHB24_SPELL_AID" level="5" spellcasting="Paladin" prepared="true" />
-			<grant type="Spell" id="ID_PHB24_SPELL_ZONE_OF_TRUTH" level="5" spellcasting="Paladin" prepared="true" />
-			<grant type="Spell" id="ID_PHB24_SPELL_BEACON_OF_HOPE" level="9" spellcasting="Paladin" prepared="true" />
-			<grant type="Spell" id="ID_PHB24_SPELL_DISPEL_MAGIC" level="9" spellcasting="Paladin" prepared="true" />
-			<grant type="Spell" id="ID_PHB24_SPELL_FREEDOM_OF_MOVEMENT" level="13" spellcasting="Paladin" prepared="true" />
-			<grant type="Spell" id="ID_PHB24_SPELL_GUARDIAN_OF_FAITH" level="13" spellcasting="Paladin" prepared="true" />
-			<grant type="Spell" id="ID_PHB24_SPELL_COMMUNE" level="17" spellcasting="Paladin" prepared="true" />
-			<grant type="Spell" id="ID_PHB24_SPELL_FLAME_STRIKE" level="17" spellcasting="Paladin" prepared="true" /> -->
+		<rules> 
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_PROTECTION_FROM_EVIL_AND_GOOD" level="3" spellcasting="Paladin" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_SHIELD_OF_FAITH" level="3" spellcasting="Paladin" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_AID" level="5" spellcasting="Paladin" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_ZONE_OF_TRUTH" level="5" spellcasting="Paladin" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_BEACON_OF_HOPE" level="9" spellcasting="Paladin" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_DISPEL_MAGIC" level="9" spellcasting="Paladin" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_FREEDOM_OF_MOVEMENT" level="13" spellcasting="Paladin" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_GUARDIAN_OF_FAITH" level="13" spellcasting="Paladin" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_COMMUNE" level="17" spellcasting="Paladin" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_FLAME_STRIKE" level="17" spellcasting="Paladin" prepared="true" />
 		</rules>
 	</element>
 	<element name="Level 3: Sacred Weapon" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_DEVOTION_SACRED_WEAPON">
@@ -71,7 +71,7 @@
 		<description>
 			<p>When you take the Attack action, you can expend one use of your Channel Divinity to imbue one Melee weapon that you are holding with positive energy. For 10 minutes or until you use this feature again, you add your Charisma modifier to attack rolls you make with that weapon (minimum bonus of +1), and each time you hit with it, you cause it to deal its normal damage type or Radiant damage.</p>
 			<p class="indent">The weapon also emits Bright Light in a 20-foot radius and Dim Light 20 feet beyond that.</p>
-			<p class="indent">You can end this effect early (no action required).</p> <p>This effect also ends if you aren't carrying the weapon.</p>
+			<p class="indent">You can end this effect early (no action required). This effect also ends if you aren't carrying the weapon.</p>
 		</description>
 		<sheet alt="Sacred Weapon" action="Action" usage="Channel Divinity">
 			<description>For 10 minutes, you add +{{sacred:weapon}} to attack rolls made with that weapon and each time you hit with it, you cause it to deal its normal damage type or Radiant damage. The weapon also emits bright light in a 20ft radius and dim light 20ft beyond that.

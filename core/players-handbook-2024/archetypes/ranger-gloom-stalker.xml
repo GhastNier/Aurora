@@ -104,12 +104,12 @@
 			</table>
 		</description>
 		<sheet display="false" />
-		<rules><!--
+		<rules>
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_DISGUISE_SELF" level="3" spellcasting="Ranger" prepared="true"/>
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_ROPE_TRICK" level="5" spellcasting="Ranger" prepared="true"/>
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_FEAR" level="9" spellcasting="Ranger" prepared="true"/>
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_GREATER_INVISIBILITY" level="13" spellcasting="Ranger" prepared="true"/>
-			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_SEEMING" level="17" spellcasting="Ranger" prepared="true"/> -->
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_SEEMING" level="17" spellcasting="Ranger" prepared="true"/>
 		</rules>
 	</element>
 

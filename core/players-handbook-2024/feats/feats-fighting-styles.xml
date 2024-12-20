@@ -8,7 +8,7 @@
 	</info>
 		
 	<element name="Archery" type="Feat" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_ARCHERY">
-		<requirements>ID_WOTC_PHB24_CLASS_FEATURE_RANGER_FIGHTING_STYLE||ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_FIGHTING_STYLE</requirements>
+		<requirements>ID_WOTC_PHB24_CLASS_FEATURE_FIGHTER_FIGHTING_STYLE||ID_WOTC_PHB24_CLASS_FEATURE_RANGER_FIGHTING_STYLE||ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_FIGHTING_STYLE</requirements>
 		<supports>Fighting Style</supports>
 		<prerequisite>Fighting Style Feature, Fighting Style Feat</prerequisite>
 		<description>
@@ -23,7 +23,7 @@
 		</rules>
 	</element>
     <element name="Blind Fighting" type="Feat" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_BLIND_FIGHTING">
-		<requirements>ID_WOTC_PHB24_CLASS_FEATURE_RANGER_FIGHTING_STYLE||ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_FIGHTING_STYLE</requirements>
+		<requirements>ID_WOTC_PHB24_CLASS_FEATURE_FIGHTER_FIGHTING_STYLE||ID_WOTC_PHB24_CLASS_FEATURE_RANGER_FIGHTING_STYLE||ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_FIGHTING_STYLE</requirements>
 		<supports>Fighting Style</supports>
 		<prerequisite>Fighting Style Feature, Fighting Style Feat</prerequisite>
 		<description>
@@ -39,7 +39,7 @@
 		</rules>
 	</element>
     <element name="Defense" type="Feat" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_DEFENSE">
-		<requirements>ID_WOTC_PHB24_CLASS_FEATURE_RANGER_FIGHTING_STYLE||ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_FIGHTING_STYLE</requirements>
+		<requirements>ID_WOTC_PHB24_CLASS_FEATURE_FIGHTER_FIGHTING_STYLE||ID_WOTC_PHB24_CLASS_FEATURE_RANGER_FIGHTING_STYLE||ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_FIGHTING_STYLE</requirements>
 		<supports>Fighting Style</supports>
 		<prerequisite>Fighting Style Feature, Fighting Style Feat</prerequisite>
 		<description>
@@ -54,7 +54,7 @@
 		</rules>
 	</element>
     <element name="Dueling" type="Feat" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_DUELING">
-		<requirements>ID_WOTC_PHB24_CLASS_FEATURE_RANGER_FIGHTING_STYLE||ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_FIGHTING_STYLE</requirements>
+		<requirements>ID_WOTC_PHB24_CLASS_FEATURE_FIGHTER_FIGHTING_STYLE||ID_WOTC_PHB24_CLASS_FEATURE_RANGER_FIGHTING_STYLE||ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_FIGHTING_STYLE</requirements>
 		<supports>Fighting Style</supports>
 		<prerequisite>Fighting Style Feature, Fighting Style Feat</prerequisite>
 		<description>
@@ -66,7 +66,7 @@
 		</sheet>
 	</element>
     <element name="Great Weapon Fighting" type="Feat" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_GREAT_WEAPON_FIGHTING">
-		<requirements>ID_WOTC_PHB24_CLASS_FEATURE_RANGER_FIGHTING_STYLE||ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_FIGHTING_STYLE</requirements>
+		<requirements>ID_WOTC_PHB24_CLASS_FEATURE_FIGHTER_FIGHTING_STYLE||ID_WOTC_PHB24_CLASS_FEATURE_RANGER_FIGHTING_STYLE||ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_FIGHTING_STYLE</requirements>
 		<supports>Fighting Style</supports>
 		<prerequisite>Fighting Style Feature, Fighting Style Feat</prerequisite>
 		<description>
@@ -78,22 +78,19 @@
 		</sheet>
 	</element>
     <element name="Interception" type="Feat" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_INTERCEPTION">
-		<requirements>ID_WOTC_PHB24_CLASS_FEATURE_RANGER_FIGHTING_STYLE||ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_FIGHTING_STYLE</requirements>
+		<requirements>ID_WOTC_PHB24_CLASS_FEATURE_FIGHTER_FIGHTING_STYLE||ID_WOTC_PHB24_CLASS_FEATURE_RANGER_FIGHTING_STYLE||ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_FIGHTING_STYLE</requirements>
 		<supports>Fighting Style</supports>
 		<prerequisite>Fighting Style Feature, Fighting Style Feat</prerequisite>
 		<description>
     		<p><em>Fighting Style Feat (Prerequisite: Fighting Style Feature)</em></p>
-			<p>When a creature you can see hits another creature within 5feet of you with an attack roll, you can take a Reaction to reduce the damage dealt to the target by 1dlO plus your Proficiency Bonus. You must be holding a Shield or a Simple or Martial weapon to use this Reaction.</p>
+			<p>When a creature you can see hits another creature within 5feet of you with an attack roll, you can take a Reaction to reduce the damage dealt to the target by 1d10 plus your Proficiency Bonus. You must be holding a Shield or a Simple or Martial weapon to use this Reaction.</p>
 		</description>
 		<sheet>
-			<description>When a creature you can see hits another creature within 5feet of you with an attack roll, you can take a Reaction to reduce the damage dealt to the target by 1dlO+{{proficiency}}. You must be holding a Shield or a Simple or Martial weapon.</description>
+			<description>When a creature you can see hits another creature within 5feet of you with an attack roll, you can take a Reaction to reduce the damage dealt to the target by 1d10+{{proficiency}}. You must be holding a Shield or a Simple or Martial weapon.</description>
 		</sheet>
-		<rules>
-			<select type="Spell" name="Druidic Warrior" supports="0, Druid" />
-		</rules>
 	</element>
     <element name="Protection" type="Feat" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_PROTECTION">
-		<requirements>ID_WOTC_PHB24_CLASS_FEATURE_RANGER_FIGHTING_STYLE||ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_FIGHTING_STYLE</requirements>
+		<requirements>ID_WOTC_PHB24_CLASS_FEATURE_FIGHTER_FIGHTING_STYLE||ID_WOTC_PHB24_CLASS_FEATURE_RANGER_FIGHTING_STYLE||ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_FIGHTING_STYLE</requirements>
 		<supports>Fighting Style</supports>
 		<prerequisite>Fighting Style Feature, Fighting Style Feat</prerequisite>
 		<description>
@@ -105,7 +102,7 @@
 		</sheet>
 	</element>
     <element name="Thrown Weapon Fighting" type="Feat" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_THROWN_WEAPON_FIGHTING">
-		<requirements>ID_WOTC_PHB24_CLASS_FEATURE_RANGER_FIGHTING_STYLE||ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_FIGHTING_STYLE</requirements>
+		<requirements>ID_WOTC_PHB24_CLASS_FEATURE_FIGHTER_FIGHTING_STYLE||ID_WOTC_PHB24_CLASS_FEATURE_RANGER_FIGHTING_STYLE||ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_FIGHTING_STYLE</requirements>
 		<supports>Fighting Style</supports>
 		<prerequisite>Fighting Style Feature, Fighting Style Feat</prerequisite>
 		<description>
@@ -117,7 +114,7 @@
 		</sheet>
 	</element>
     <element name="Two-Weapon Fighting" type="Feat" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_TWOWEAPON_FIGHTING">
-		<requirements>ID_WOTC_PHB24_CLASS_FEATURE_RANGER_FIGHTING_STYLE||ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_FIGHTING_STYLE</requirements>
+		<requirements>ID_WOTC_PHB24_CLASS_FEATURE_FIGHTER_FIGHTING_STYLE||ID_WOTC_PHB24_CLASS_FEATURE_RANGER_FIGHTING_STYLE||ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_FIGHTING_STYLE</requirements>
 		<supports>Fighting Style</supports>
 		<prerequisite>Fighting Style Feature, Fighting Style Feat</prerequisite>
 		<description>
@@ -129,17 +126,17 @@
 		</sheet>
 	</element>
     <element name="Unarmed Fighting" type="Feat" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_UNARMED_FIGHTING">
-        <requirements>ID_WOTC_PHB24_CLASS_FEATURE_RANGER_FIGHTING_STYLE||ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_FIGHTING_STYLE</requirements>
+        <requirements>ID_WOTC_PHB24_CLASS_FEATURE_FIGHTER_FIGHTING_STYLE||ID_WOTC_PHB24_CLASS_FEATURE_RANGER_FIGHTING_STYLE||ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_FIGHTING_STYLE</requirements>
 		<supports>Fighting Style</supports>
 		<prerequisite>Fighting Style Feature, Fighting Style Feat</prerequisite>
 		<description>
     		<p><em>Fighting Style Feat (Prerequisite: Fighting Style Feature)</em></p>
-			<p>When you hit with your Unarmed Strike and deal damage, you can deal Bludgeoning damage equal to ld6 plus your Strength modifier instead of the normal damage of an Unarmed Strike. If you aren't holding any weapons or a Shield when you make the attack roll, the d6 becomes a d8.</p>
-            <p class="indent">At the start of each of your turns, you can deal ld4 Bludgeoning damage to one creature Grappled by you.</p>
+			<p>When you hit with your Unarmed Strike and deal damage, you can deal Bludgeoning damage equal to 1d6 plus your Strength modifier instead of the normal damage of an Unarmed Strike. If you aren't holding any weapons or a Shield when you make the attack roll, the d6 becomes a d8.</p>
+            <p class="indent">At the start of each of your turns, you can deal 1d4 Bludgeoning damage to one creature Grappled by you.</p>
 		</description>
 		<sheet>
-			<description>When you hit with your Unarmed Strike and deal damage, you can deal ld{{unarmed strike:dice}}+{{strength:modifier}} Bludgeoning damage instead of the normal damage of an Unarmed Strike.&#13;
-            At the start of each of your turns, you can deal ld4 Bludgeoning damage to one creature Grappled by you.</description>
+			<description>When you hit with your Unarmed Strike and deal damage, you can deal 1d{{unarmed strike:dice}}+{{strength:modifier}} Bludgeoning damage instead of the normal damage of an Unarmed Strike.&#13;
+            At the start of each of your turns, you can deal 1d4 Bludgeoning damage to one creature Grappled by you.</description>
 		</sheet>
 		<rules>
 			<stat name="unarmed strike:dice" value="6" bonus="unarmed strike" />

@@ -20,7 +20,7 @@
 			<description>Immediately after you roll Initiative, you can swap yours with that of one willing ally in the same combat. You can't make this swap if you or the ally has the Incapacitated condition.</description>
 		</sheet>
 		<rules>
-			<stat name="initiative" value="{{proficiency}}" />			
+			<stat name="initiative" value="proficiency" />			
 		</rules>
 	</element>
 	<element name="Crafter" type="Feat" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_CRAFTER">
@@ -44,7 +44,7 @@
 				<tr><td>Smith's Tools</td><td>Ball Bearings, Bucket, Caltrops, Grappling Hook, Iron Pot</td></tr>
 				<tr><td>Tinker's Tools</td><td>Bell, Shovel, Tinder Box</td></tr>
 				<tr><td>Weaver’s Tools</td><td>Basket, Rope, Net, Tent</td></tr>
-				<tr><td>Woodcarver's Tools</td><td>Club, Greatclub, Quarterstaf</td></tr>
+				<tr><td>Woodcarver's Tools</td><td>Club, Greatclub, Quarterstaff</td></tr>
 			</table>
 		</description>
 		<sheet>
@@ -426,13 +426,13 @@
 		<description>
 			<p class="flavor">Origin Feat</p>
 			<p>You gain the following benefits.</p>
-			<p class="indent"><b><i>Enhanced Unarmed Strike.</i></b> When you hit with your Unarmed Strike and deal damage, you can deal Bludgeoning damage equal to ld4 plus your Strength modifier instead of the normal damage of an Unarmed Strike.</p> 
+			<p class="indent"><b><i>Enhanced Unarmed Strike.</i></b> When you hit with your Unarmed Strike and deal damage, you can deal Bludgeoning damage equal to 1d4 plus your Strength modifier instead of the normal damage of an Unarmed Strike.</p> 
 			<p class="indent"><b><i>Damage Rerolls.</i></b> Whenever you roll a damage die for your Unarmed Strike, you can reroll the die if it rolls a 1, and you must use the new roll.</p>
 			<p class="indent"><b><i>Improvised Weaponry.</i></b> You have proficiency with improvised weapons.</p>
 			<p class="indent"><b><i>Push.</i></b> When you hit a creature with an Unarmed Strike as part of the Attack action on your turn, you can deal damage to the target and also push it 5 feet away from you. You can use this benefit only once per turn.</p>
 		</description>
 		<sheet>
-			<description>When you hit with your Unarmed Strike and deal damage, you can deal ld4+{{strength:modifier}} Bludgeoning damage and, once per turn you can also push it 5ft away from you. Whenever you roll a 1 for damage for your Unarmed Strike, you can reroll the die, and you must use the new roll. You have proficiency with improvised weapons.</description>
+			<description>When you hit with your Unarmed Strike and deal damage, you can deal 1d4+{{strength:modifier}} Bludgeoning damage and, once per turn you can also push it 5ft away from you. Whenever you roll a 1 for damage for your Unarmed Strike, you can reroll the die, and you must use the new roll. You have proficiency with improvised weapons.</description>
 		</sheet>
 	</element>
 	<element name="Tough" type="Feat" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_TOUGH">

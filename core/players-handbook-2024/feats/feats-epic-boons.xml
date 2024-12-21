@@ -163,7 +163,7 @@
 			<p><em>Epic Boon Feat (Prerequisite: Level 19+)</em></p>
 			<p>You gain the following benefits.</p>
 			<p class="indent"><b><i>Ability Score Increase.</i></b> Increase one ability score of your choice by 1, to a maximum of 30.</p>
-			<p class="indent"><b><i>Fortified Health.</i></b> Your Hit Point maximum increases by 40. In addition, whenever you regain Hit Points, you can regain additional Hit Points equal to your Constitution modifier. Cnee you've regained these additional Hit Points, you can't do so again until the start of your next turn.</p>
+			<p class="indent"><b><i>Fortified Health.</i></b> Your Hit Point maximum increases by 40. In addition, whenever you regain Hit Points, you can regain additional Hit Points equal to your Constitution modifier. Once you've regained these additional Hit Points, you can't do so again until the start of your next turn.</p>
 		</description>
 		<sheet usage="1/Turn">
 			<description>Whenever you regain HP, you can regain {{constitution:modifier}} additional HP.</description>
@@ -293,7 +293,7 @@
 			<p><em>Epic Boon Feat (Prerequisite: Level 19+)</em></p>
 			<p>You gain the following benefits.</p>
 			<p class="indent"><b><i>Ability Score Increase.</i></b> Increase one ability score of your choice by 1, to a maximum of 30.</p>
-			<p class="indent"><b><i>Merge with Shadows.</i></b> While within Dim Light or Darkness, you can give yourself the invisible condition as a Bonus Action. The condition ends on you immediately after you take an action, a Bonus Action, ora Reaction.</p>
+			<p class="indent"><b><i>Merge with Shadows.</i></b> While within Dim Light or Darkness, you can give yourself the invisible condition as a Bonus Action. The condition ends on you immediately after you take an action, a Bonus Action, or a Reaction.</p>
 			<p class="indent"><b><i>Shadowy Form.</i></b> While within Dim Light or Darkness, you have Resistance to all damage except Psychic and Radiant.</p>
 		</description>
 		<sheet>

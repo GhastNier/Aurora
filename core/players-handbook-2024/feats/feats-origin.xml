@@ -97,10 +97,10 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<select type="Feat Feature" name="Magic Initiate" supports="Magic Initiate" default="ID_WOTC_PHB24_FEAT_MAGIC_INITIATE_CLERIC" requirements="ID_WOTC_PHB24_BACKGROUND_ACOLYTE"/>
-			<select type="Feat Feature" name="Magic Initiate" supports="Magic Initiate" default="ID_WOTC_PHB24_FEAT_MAGIC_INITIATE_DRUID" requirements="ID_WOTC_PHB24_BACKGROUND_GUIDE"/>
-			<select type="Feat Feature" name="Magic Initiate" supports="Magic Initiate" default="ID_WOTC_PHB24_FEAT_MAGIC_INITIATE_WIZARD" requirements="ID_WOTC_PHB24_BACKGROUND_SAGE"/>
-			<select type="Feat Feature" name="Magic Initiate" supports="Magic Initiate" requirements="!(ID_WOTC_PHB24_FEAT_MAGIC_INITIATE_CLERIC||ID_WOTC_PHB24_FEAT_MAGIC_INITIATE_DRUID||ID_WOTC_PHB24_FEAT_MAGIC_INITIATE_WIZARD)"/>
+			<select type="Feat Feature" name="Magic Initiate (Acolyte)" supports="Magic Initiate 24" default="ID_WOTC_PHB24_FEAT_MAGIC_INITIATE_CLERIC" requirements="ID_WOTC_PHB24_BACKGROUND_ACOLYTE"/>
+			<select type="Feat Feature" name="Magic Initiate (Guide)" supports="Magic Initiate 24" default="ID_WOTC_PHB24_FEAT_MAGIC_INITIATE_DRUID" requirements="ID_WOTC_PHB24_BACKGROUND_GUIDE"/>
+			<select type="Feat Feature" name="Magic Initiate (Sage)" supports="Magic Initiate 24" default="ID_WOTC_PHB24_FEAT_MAGIC_INITIATE_WIZARD" requirements="ID_WOTC_PHB24_BACKGROUND_SAGE"/>
+			<select type="Feat Feature" name="Magic Initiate" supports="Magic Initiate 24" requirements="!(ID_WOTC_PHB24_BACKGROUND_ACOLYTE||ID_WOTC_PHB24_BACKGROUND_GUIDE||ID_WOTC_PHB24_BACKGROUND_SAGE)"/>
 		</rules>
 	</element>
 	<element name="Magic Initiate" type="Feat" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_MAGIC_INITIATE_2">
@@ -108,10 +108,17 @@
 		<compendium display="false" />
 		<requirements>ID_WOTC_PHB24_FEAT_MAGIC_INITIATE</requirements>
 		<prerequisite>Origin Feat</prerequisite>
-		<description />
+		<description>
+			<p class="flavor">Origin Feat</p>
+			<p>You gain the following benefits.</p>
+			<p class="indent"><b><i>Two Cantrips.</i></b> You learn two cantrips of your choice from the Cleric, Druid, or Wizard spell list. Intelligence, Wisdom, or Charisma is your spellcasting ability for this feat's spells (choose when you select this feat).</p>
+			<p class="indent"><b><i>Level 1 Spell.</i></b> Choose a level 1 spell from the same list you selected for this feat's cantrips. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have.</p>
+			<p class="indent"><b><i>Spell Change.</i></b> Whenever you gain a new level, you can replace one of the spells you chose for this feat with a different spell of the same level from the chosen spell list.</p>
+			<p class="indent"><b><i>Repeatable.</i></b> You can take this feat more than once, but you must choose a different spell list each time.</p>
+		</description>
 		<sheet display="false" />
 		<rules>
-			<select type="Feat Feature" name="Magic Initiate" supports="Magic Initiate" />
+			<select type="Feat Feature" name="Magic Initiate" supports="Magic Initiate 24" />
 		</rules>
 	</element>
 	<element name="Magic Initiate" type="Feat" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_MAGIC_INITIATE_3">
@@ -119,24 +126,28 @@
 		<compendium display="false" />
 		<requirements>ID_WOTC_PHB24_FEAT_MAGIC_INITIATE_2</requirements>
 		<prerequisite>Origin Feat</prerequisite>
-		<description />
+		<description>
+			<p class="flavor">Origin Feat</p>
+			<p>You gain the following benefits.</p>
+			<p class="indent"><b><i>Two Cantrips.</i></b> You learn two cantrips of your choice from the Cleric, Druid, or Wizard spell list. Intelligence, Wisdom, or Charisma is your spellcasting ability for this feat's spells (choose when you select this feat).</p>
+			<p class="indent"><b><i>Level 1 Spell.</i></b> Choose a level 1 spell from the same list you selected for this feat's cantrips. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have.</p>
+			<p class="indent"><b><i>Spell Change.</i></b> Whenever you gain a new level, you can replace one of the spells you chose for this feat with a different spell of the same level from the chosen spell list.</p>
+			<p class="indent"><b><i>Repeatable.</i></b> You can take this feat more than once, but you must choose a different spell list each time.</p>
+		</description>
 		<sheet display="false" />
 		<rules>
-			<select type="Feat Feature" name="Magic Initiate" supports="Magic Initiate" />
+			<select type="Feat Feature" name="Magic Initiate" supports="Magic Initiate 24" />
 		</rules>
 	</element>
 	
 	<element name="Cleric" type="Feat Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_MAGIC_INITIATE_CLERIC">
-		<supports>Magic Initiate</supports>
+		<supports>Magic Initiate 24</supports>
 		<compendium display="false" />
 		<description>
 			<p>You learn two cantrips of your choice from the cleric's spell list.</p>
 			<p class="indent">Choose a level 1 spell from the same list. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have.</p>
 			<p class="indent">Whenever you gain a new level, you can replace one of the spells you chose for this feat with a different spell of the same level from the chosen spell list.</p>
 		</description>
-		<setters>
-			<set name="allow duplicate">true</set>
-		</setters>
 		<sheet display="false" />
 		<rules>
 			<select type="Feat Feature" name="Spellcasting Ability (Magic Initiate)" supports="ID_WOTC_PHB24_FEAT_FEATURE_MAGIC_INITIATE_CLERIC_INTELLIGENCE|ID_WOTC_PHB24_FEAT_FEATURE_MAGIC_INITIATE_CLERIC_WISDOM|ID_WOTC_PHB24_FEAT_FEATURE_MAGIC_INITIATE_CLERIC_CHARISMA" />
@@ -149,9 +160,6 @@
 		<description>
 			<p>Your spellcasting ability for this feat's spells is Intelligence</p>
 		</description>
-		<setters>
-			<set name="allow duplicate">true</set>
-		</setters>
 		<sheet alt="Magic Initiate (Cleric)">
 			<description>You can cast the chosen 1st-level spell without a spell slot. You can also cast the spell using any spell slots you have. Your spellcasting ability for this feat's spells is Intelligence.</description>
 		</sheet>
@@ -161,9 +169,6 @@
 		<description>
 			<p>Your spellcasting ability for this feat's spells is Wisdom</p>
 		</description>
-		<setters>
-			<set name="allow duplicate">true</set>
-		</setters>
 		<sheet alt="Magic Initiate (Cleric)">
 			<description>You can cast the chosen 1st-level spell without a spell slot. You can also cast the spell using any spell slots you have. Your spellcasting ability for this feat's spells is Wisdom.</description>
 		</sheet>
@@ -173,25 +178,19 @@
 		<description>
 			<p>Your spellcasting ability for this feat's spells is Charisma</p>
 		</description>
-		<setters>
-			<set name="allow duplicate">true</set>
-		</setters>
 		<sheet alt="Magic Initiate (Cleric)">
 			<description>You can cast the chosen 1st-level spell without a spell slot. You can also cast the spell using any spell slots you have. Your spellcasting ability for this feat's spells is Charisma.</description>
 		</sheet>
 	</element>
 
 	<element name="Druid" type="Feat Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_MAGIC_INITIATE_DRUID">
-		<supports>Magic Initiate</supports>
+		<supports>Magic Initiate 24</supports>
 		<compendium display="false" />
 		<description>
 			<p>You learn two cantrips of your choice from the druid's spell list.</p>
 			<p class="indent">Choose a level 1 spell from the same list. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have.</p>
 			<p class="indent">Whenever you gain a new level, you can replace one of the spells you chose for this feat with a different spell of the same level from the chosen spell list.</p>
 		</description>
-		<setters>
-			<set name="allow duplicate">true</set>
-		</setters>
 		<sheet display="false" />
 		<rules>
 			<select type="Feat Feature" name="Spellcasting Ability (Magic Initiate)" supports="ID_WOTC_PHB24_FEAT_FEATURE_MAGIC_INITIATE_DRUID_INTELLIGENCE|ID_WOTC_PHB24_FEAT_FEATURE_MAGIC_INITIATE_DRUID_WISDOM|ID_WOTC_PHB24_FEAT_FEATURE_MAGIC_INITIATE_DRUID_CHARISMA" />
@@ -204,9 +203,6 @@
 		<description>
 			<p>Your spellcasting ability for this feat's spells is Intelligence</p>
 		</description>
-		<setters>
-			<set name="allow duplicate">true</set>
-		</setters>
 		<sheet alt="Magic Initiate (Druid)">
 			<description>You can cast the chosen 1st-level spell without a spell slot. You can also cast the spell using any spell slots you have. Your spellcasting ability for this feat's spells is Intelligence.</description>
 		</sheet>
@@ -216,9 +212,6 @@
 		<description>
 			<p>Your spellcasting ability for this feat's spells is Wisdom</p>
 		</description>
-		<setters>
-			<set name="allow duplicate">true</set>
-		</setters>
 		<sheet alt="Magic Initiate (Druid)">
 			<description>You can cast the chosen 1st-level spell without a spell slot. You can also cast the spell using any spell slots you have. Your spellcasting ability for this feat's spells is Wisdom.</description>
 		</sheet>
@@ -228,25 +221,19 @@
 		<description>
 			<p>Your spellcasting ability for this feat's spells is Charisma</p>
 		</description>
-		<setters>
-			<set name="allow duplicate">true</set>
-		</setters>
 		<sheet alt="Magic Initiate (Druid)">
 			<description>You can cast the chosen 1st-level spell without a spell slot. You can also cast the spell using any spell slots you have. Your spellcasting ability for this feat's spells is Charisma.</description>
 		</sheet>
 	</element>
 
 	<element name="Wizard" type="Feat Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_MAGIC_INITIATE_WIZARD">
-		<supports>Magic Initiate</supports>
+		<supports>Magic Initiate 24</supports>
 		<compendium display="false" />
 		<description>
 			<p>You learn two cantrips of your choice from the wizard's spell list.</p>
 			<p class="indent">Choose a level 1 spell from the same list. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have.</p>
 			<p class="indent">Whenever you gain a new level, you can replace one of the spells you chose for this feat with a different spell of the same level from the chosen spell list.</p>
 		</description>
-		<setters>
-			<set name="allow duplicate">true</set>
-		</setters>
 		<sheet display="false" />
 		<rules>
 			<select type="Feat Feature" name="Spellcasting Ability (Magic Initiate)" supports="ID_WOTC_PHB24_FEAT_FEATURE_MAGIC_INITIATE_WIZARD_INTELLIGENCE|ID_WOTC_PHB24_FEAT_FEATURE_MAGIC_INITIATE_WIZARD_WISDOM|ID_WOTC_PHB24_FEAT_FEATURE_MAGIC_INITIATE_WIZARD_CHARISMA" />
@@ -259,9 +246,6 @@
 		<description>
 			<p>Your spellcasting ability for this feat's spells is Intelligence</p>
 		</description>
-		<setters>
-			<set name="allow duplicate">true</set>
-		</setters>
 		<sheet alt="Magic Initiate (Wizard)">
 			<description>You can cast the chosen 1st-level spell without a spell slot. You can also cast the spell using any spell slots you have. Your spellcasting ability for this feat's spells is Intelligence.</description>
 		</sheet>
@@ -271,9 +255,6 @@
 		<description>
 			<p>Your spellcasting ability for this feat's spells is Wisdom</p>
 		</description>
-		<setters>
-			<set name="allow duplicate">true</set>
-		</setters>
 		<sheet alt="Magic Initiate (Wizard)">
 			<description>You can cast the chosen 1st-level spell without a spell slot. You can also cast the spell using any spell slots you have. Your spellcasting ability for this feat's spells is Wisdom.</description>
 		</sheet>
@@ -283,9 +264,6 @@
 		<description>
 			<p>Your spellcasting ability for this feat's spells is Charisma</p>
 		</description>
-		<setters>
-			<set name="allow duplicate">true</set>
-		</setters>
 		<sheet alt="Magic Initiate (Wizard)">
 			<description>You can cast the chosen 1st-level spell without a spell slot. You can also cast the spell using any spell slots you have. Your spellcasting ability for this feat's spells is Charisma.</description>
 		</sheet>

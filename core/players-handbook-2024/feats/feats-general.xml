@@ -1632,6 +1632,11 @@
 		<sheet display="false" />
 		<rules>
 			<stat name="strength" value="1" alt="Resilient" />
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_PHB24_PROFICIENCY_SAVINGTHROW_STRENGTH" />
+		</rules>
+	</element>
+	<element name="Strength Saving Throw Proficiency" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_PHB24_PROFICIENCY_SAVINGTHROW_STRENGTH">
+		<rules>
 			<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_SAVINGTHROW_STRENGTH" />
 		</rules>
 	</element>
@@ -1645,6 +1650,11 @@
 		<sheet display="false" />
 		<rules>
 			<stat name="dexterity" value="1" alt="Resilient" />
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_PHB24_PROFICIENCY_SAVINGTHROW_DEXTERITY" />
+		</rules>
+	</element>
+	<element name="Dexterity Saving Throw Proficiency" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_PHB24_PROFICIENCY_SAVINGTHROW_DEXTERITY">
+		<rules>
 			<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_SAVINGTHROW_DEXTERITY" />
 		</rules>
 	</element>
@@ -1658,6 +1668,11 @@
 		<sheet display="false" />
 		<rules>
 			<stat name="constitution" value="1" alt="Resilient" />
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_PHB24_PROFICIENCY_SAVINGTHROW_CONSTITUTION" />
+		</rules>
+	</element>
+	<element name="Constitution Saving Throw Proficiency" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_PHB24_PROFICIENCY_SAVINGTHROW_CONSTITUTION">
+		<rules>
 			<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_SAVINGTHROW_CONSTITUTION" />
 		</rules>
 	</element>
@@ -1671,6 +1686,11 @@
 		<sheet display="false" />
 		<rules>
 			<stat name="intelligence" value="1" alt="Resilient" />
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_PHB24_PROFICIENCY_SAVINGTHROW_INTELLIGENCE" />
+		</rules>
+	</element>
+	<element name="Intelligence Saving Throw Proficiency" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_PHB24_PROFICIENCY_SAVINGTHROW_INTELLIGENCE">
+		<rules>
 			<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_SAVINGTHROW_INTELLIGENCE" />
 		</rules>
 	</element>
@@ -1684,6 +1704,11 @@
 		<sheet display="false" />
 		<rules>
 			<stat name="wisdom" value="1" alt="Resilient" />
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_PHB24_PROFICIENCY_SAVINGTHROW_WISDOM" />
+		</rules>
+	</element>
+	<element name="Wisdom Saving Throw Proficiency" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_PHB24_PROFICIENCY_SAVINGTHROW_WISDOM">
+		<rules>
 			<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_SAVINGTHROW_WISDOM" />
 		</rules>
 	</element>
@@ -1697,6 +1722,11 @@
 		<sheet display="false" />
 		<rules>
 			<stat name="charisma" value="1" alt="Resilient" />
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_PHB24_PROFICIENCY_SAVINGTHROW_CHARISMA" />
+		</rules>
+	</element>
+	<element name="Charisma Saving Throw Proficiency" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_PHB24_PROFICIENCY_SAVINGTHROW_CHARISMA">
+		<rules>
 			<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_SAVINGTHROW_CHARISMA" />
 		</rules>
 	</element>

@@ -1637,7 +1637,7 @@
 	</element>
 	<element name="Strength Saving Throw Proficiency" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_PHB24_PROFICIENCY_SAVINGTHROW_STRENGTH">
 		<rules>
-			<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_SAVINGTHROW_STRENGTH" />
+			<stat name="strength:save:proficiency" value="proficiency" bonus="proficiency" alt="Proficiency" />
 		</rules>
 	</element>
 	<element name="Resilient (Dexterity)" type="Feat Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_RESILIENT_DEXTERITY">
@@ -1655,7 +1655,7 @@
 	</element>
 	<element name="Dexterity Saving Throw Proficiency" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_PHB24_PROFICIENCY_SAVINGTHROW_DEXTERITY">
 		<rules>
-			<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_SAVINGTHROW_DEXTERITY" />
+			<stat name="dexterity:save:proficiency" value="proficiency" bonus="proficiency" alt="Proficiency" />
 		</rules>
 	</element>
 	<element name="Resilient (Constitution)" type="Feat Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_RESILIENT_CONSTITUTION">
@@ -1673,7 +1673,7 @@
 	</element>
 	<element name="Constitution Saving Throw Proficiency" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_PHB24_PROFICIENCY_SAVINGTHROW_CONSTITUTION">
 		<rules>
-			<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_SAVINGTHROW_CONSTITUTION" />
+			<stat name="constitution:save:proficiency" value="proficiency" bonus="proficiency" alt="Proficiency" />
 		</rules>
 	</element>
 	<element name="Resilient (Intelligence)" type="Feat Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_RESILIENT_INTELLIGENCE">
@@ -1691,7 +1691,7 @@
 	</element>
 	<element name="Intelligence Saving Throw Proficiency" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_PHB24_PROFICIENCY_SAVINGTHROW_INTELLIGENCE">
 		<rules>
-			<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_SAVINGTHROW_INTELLIGENCE" />
+			<stat name="intelligence:save:proficiency" value="proficiency" bonus="proficiency" alt="Proficiency" />
 		</rules>
 	</element>
 	<element name="Resilient (Wisdom)" type="Feat Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_RESILIENT_WISDOM">
@@ -1709,7 +1709,7 @@
 	</element>
 	<element name="Wisdom Saving Throw Proficiency" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_PHB24_PROFICIENCY_SAVINGTHROW_WISDOM">
 		<rules>
-			<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_SAVINGTHROW_WISDOM" />
+			<stat name="wisdom:save:proficiency" value="proficiency" bonus="proficiency" alt="Proficiency" />
 		</rules>
 	</element>
 	<element name="Resilient (Charisma)" type="Feat Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_RESILIENT_CHARISMA">
@@ -1727,7 +1727,7 @@
 	</element>
 	<element name="Charisma Saving Throw Proficiency" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_PHB24_PROFICIENCY_SAVINGTHROW_CHARISMA">
 		<rules>
-			<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_SAVINGTHROW_CHARISMA" />
+			<stat name="charisma:save:proficiency" value="proficiency" bonus="proficiency" alt="Proficiency" />
 		</rules>
 	</element>
 

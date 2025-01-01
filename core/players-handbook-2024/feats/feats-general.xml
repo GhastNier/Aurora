@@ -100,7 +100,7 @@
 			<select type="Ability Score Improvement" name="Ability Score Improvement (19th LV)" supports="ID_WOTC_PHB24_FEAT_FEATURE_ASI_OPTION2_8|ID_WOTC_PHB24_FEAT_FEATURE_ASI_OPTION1_8" />
 		</rules>
 	</element>
-	<element name="Ability Score Improvement +2" type="Feat Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_FEATURE_ASI_OPTION2_1">
+	<element name="Ability Score Improvement +2" type="Ability Score Improvement" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_FEATURE_ASI_OPTION2_1">
 		<compendium display="false" />
 		<description>
 			<p>Increase one ability score of your choice by 2.</p>
@@ -110,7 +110,7 @@
 			<select type="Ability Score Improvement" name="Ability Score Improvement +2 (Feat)" supports="Feat ASI 2" />
 		</rules>
 	</element>
-	<element name="Ability Score Improvement +2" type="Feat Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_FEATURE_ASI_OPTION2_2">
+	<element name="Ability Score Improvement +2" type="Ability Score Improvement" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_FEATURE_ASI_OPTION2_2">
 		<compendium display="false" />
 		<description>
 			<p>Increase one ability score of your choice by 2.</p>
@@ -120,7 +120,7 @@
 			<select type="Ability Score Improvement" name="Ability Score Improvement +2 (Feat)" supports="Feat ASI 2" />
 		</rules>
 	</element>
-	<element name="Ability Score Improvement +2" type="Feat Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_FEATURE_ASI_OPTION2_3">
+	<element name="Ability Score Improvement +2" type="Ability Score Improvement" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_FEATURE_ASI_OPTION2_3">
 		<compendium display="false" />
 		<description>
 			<p>Increase one ability score of your choice by 2.</p>
@@ -130,7 +130,7 @@
 			<select type="Ability Score Improvement" name="Ability Score Improvement +2 (Feat)" supports="Feat ASI 2" />
 		</rules>
 	</element>
-	<element name="Ability Score Improvement +2" type="Feat Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_FEATURE_ASI_OPTION2_4">
+	<element name="Ability Score Improvement +2" type="Ability Score Improvement" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_FEATURE_ASI_OPTION2_4">
 		<compendium display="false" />
 		<description>
 			<p>Increase one ability score of your choice by 2.</p>
@@ -140,7 +140,7 @@
 			<select type="Ability Score Improvement" name="Ability Score Improvement +2 (Feat)" supports="Feat ASI 2" />
 		</rules>
 	</element>
-	<element name="Ability Score Improvement +2" type="Feat Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_FEATURE_ASI_OPTION2_5">
+	<element name="Ability Score Improvement +2" type="Ability Score Improvement" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_FEATURE_ASI_OPTION2_5">
 		<compendium display="false" />
 		<description>
 			<p>Increase one ability score of your choice by 2.</p>
@@ -150,7 +150,7 @@
 			<select type="Ability Score Improvement" name="Ability Score Improvement +2 (Feat)" supports="Feat ASI 2" />
 		</rules>
 	</element>
-	<element name="Ability Score Improvement +2" type="Feat Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_FEATURE_ASI_OPTION2_6">
+	<element name="Ability Score Improvement +2" type="Ability Score Improvement" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_FEATURE_ASI_OPTION2_6">
 		<compendium display="false" />
 		<description>
 			<p>Increase one ability score of your choice by 2.</p>
@@ -160,7 +160,7 @@
 			<select type="Ability Score Improvement" name="Ability Score Improvement +2 (Feat)" supports="Feat ASI 2" />
 		</rules>
 	</element>
-	<element name="Ability Score Improvement +2" type="Feat Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_FEATURE_ASI_OPTION2_7">
+	<element name="Ability Score Improvement +2" type="Ability Score Improvement" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_FEATURE_ASI_OPTION2_7">
 		<compendium display="false" />
 		<description>
 			<p>Increase one ability score of your choice by 2.</p>
@@ -170,7 +170,7 @@
 			<select type="Ability Score Improvement" name="Ability Score Improvement +2 (Feat)" supports="Feat ASI 2" />
 		</rules>
 	</element>
-	<element name="Ability Score Improvement +2" type="Feat Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_FEATURE_ASI_OPTION2_8">
+	<element name="Ability Score Improvement +2" type="Ability Score Improvement" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_FEATURE_ASI_OPTION2_8">
 		<compendium display="false" />
 		<description>
 			<p>Increase one ability score of your choice by 2.</p>
@@ -180,7 +180,7 @@
 			<select type="Ability Score Improvement" name="Ability Score Improvement +2 (Feat)" supports="Feat ASI 2" />
 		</rules>
 	</element>
-	<element name="Ability Score Improvement +1, +1" type="Feat Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_FEATURE_ASI_OPTION1_1">
+	<element name="Ability Score Improvement +1, +1" type="Ability Score Improvement" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_FEATURE_ASI_OPTION1_1">
 		<compendium display="false" />
 		<description>
 			<p>Increase two ability scores of your choice by 1.</p>
@@ -190,7 +190,7 @@
 			<select type="Ability Score Improvement" name="Ability Score Improvement +1, +1 (Feat)" supports="Feat ASI 1" number="2"/>
 		</rules>
 	</element>
-	<element name="Ability Score Improvement +1, +1" type="Feat Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_FEATURE_ASI_OPTION1_2">
+	<element name="Ability Score Improvement +1, +1" type="Ability Score Improvement" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_FEATURE_ASI_OPTION1_2">
 		<compendium display="false" />
 		<description>
 			<p>Increase two ability scores of your choice by 1.</p>
@@ -200,7 +200,7 @@
 			<select type="Ability Score Improvement" name="Ability Score Improvement +1, +1 (Feat)" supports="Feat ASI 1" number="2"/>
 		</rules>
 	</element>
-	<element name="Ability Score Improvement +1, +1" type="Feat Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_FEATURE_ASI_OPTION1_3">
+	<element name="Ability Score Improvement +1, +1" type="Ability Score Improvement" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_FEATURE_ASI_OPTION1_3">
 		<compendium display="false" />
 		<description>
 			<p>Increase two ability scores of your choice by 1.</p>
@@ -210,7 +210,7 @@
 			<select type="Ability Score Improvement" name="Ability Score Improvement +1, +1 (Feat)" supports="Feat ASI 1" number="2"/>
 		</rules>
 	</element>
-	<element name="Ability Score Improvement +1, +1" type="Feat Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_FEATURE_ASI_OPTION1_4">
+	<element name="Ability Score Improvement +1, +1" type="Ability Score Improvement" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_FEATURE_ASI_OPTION1_4">
 		<compendium display="false" />
 		<description>
 			<p>Increase two ability scores of your choice by 1.</p>
@@ -220,7 +220,7 @@
 			<select type="Ability Score Improvement" name="Ability Score Improvement +1, +1 (Feat)" supports="Feat ASI 1" number="2"/>
 		</rules>
 	</element>
-	<element name="Ability Score Improvement +1, +1" type="Feat Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_FEATURE_ASI_OPTION1_5">
+	<element name="Ability Score Improvement +1, +1" type="Ability Score Improvement" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_FEATURE_ASI_OPTION1_5">
 		<compendium display="false" />
 		<description>
 			<p>Increase two ability scores of your choice by 1.</p>
@@ -230,7 +230,7 @@
 			<select type="Ability Score Improvement" name="Ability Score Improvement +1, +1 (Feat)" supports="Feat ASI 1" number="2"/>
 		</rules>
 	</element>
-	<element name="Ability Score Improvement +1, +1" type="Feat Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_FEATURE_ASI_OPTION1_6">
+	<element name="Ability Score Improvement +1, +1" type="Ability Score Improvement" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_FEATURE_ASI_OPTION1_6">
 		<compendium display="false" />
 		<description>
 			<p>Increase two ability scores of your choice by 1.</p>
@@ -240,7 +240,7 @@
 			<select type="Ability Score Improvement" name="Ability Score Improvement +1, +1 (Feat)" supports="Feat ASI 1" number="2"/>
 		</rules>
 	</element>
-	<element name="Ability Score Improvement +1, +1" type="Feat Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_FEATURE_ASI_OPTION1_7">
+	<element name="Ability Score Improvement +1, +1" type="Ability Score Improvement" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_FEATURE_ASI_OPTION1_7">
 		<compendium display="false" />
 		<description>
 			<p>Increase two ability scores of your choice by 1.</p>
@@ -250,7 +250,7 @@
 			<select type="Ability Score Improvement" name="Ability Score Improvement +1, +1 (Feat)" supports="Feat ASI 1" number="2"/>
 		</rules>
 	</element>
-	<element name="Ability Score Improvement +1, +1" type="Feat Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_FEATURE_ASI_OPTION1_8">
+	<element name="Ability Score Improvement +1, +1" type="Ability Score Improvement" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_FEATURE_ASI_OPTION1_8">
 		<compendium display="false" />
 		<description>
 			<p>Increase two ability scores of your choice by 1.</p>

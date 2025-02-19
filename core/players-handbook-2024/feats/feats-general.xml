@@ -4,7 +4,7 @@
 		<name>General Category Feats</name>
 		<description>The General Category Feats from the Player’s Handbook 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="feats-general.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/feats/feats-general.xml" />
 		</update>
 	</info>
@@ -579,13 +579,13 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<select type="Feat Feature" name="Ability Score Increase, Elemental Adept" supports="Elemental Adept" />
+			<select type="Feat Feature" name="Ability Score Increase, Elemental Adept" supports="Elemental Adept 24" />
 			<select type="Feat Feature" name="Energy Mastery" supports="Energy Mastery" />
 		</rules>
 	</element>
 	<element name="Intelligence" type="Feat Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_FEATURE_ELEMENTAL_ADEPT_INTELLIGENCE">
 		<compendium display="false" />
-		<supports>Elemental Adept</supports>
+		<supports>Elemental Adept 24</supports>
 		<description>
 			<p>Increase your Intelligence by 1, to a maximum of 20.</p>
 		</description>
@@ -599,7 +599,7 @@
 	</element>
 	<element name="Wisdom" type="Feat Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_FEATURE_ELEMENTAL_ADEPT_WISDOM">
 		<compendium display="false" />
-		<supports>Elemental Adept</supports>
+		<supports>Elemental Adept 24</supports>
 		<description>
 			<p>Increase your Wisdom by 1, to a maximum of 20.</p>
 		</description>
@@ -613,7 +613,7 @@
 	</element>
 	<element name="Charisma" type="Feat Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_FEATURE_ELEMENTAL_ADEPT_CHARISMA">
 		<compendium display="false" />
-		<supports>Elemental Adept</supports>
+		<supports>Elemental Adept 24</supports>
 		<description>
 			<p>Increase your Charisma by 1, to a maximum of 20.</p>
 		</description>

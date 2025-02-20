@@ -682,7 +682,7 @@
 		<description />
 		<sheet display="false" />
 		<rules>
-			<select type="Feat Feature" name="Ability Score Increase, Elemental Adept" supports="Elemental Adept" />
+			<select type="Feat Feature" name="Ability Score Increase, Elemental Adept" supports="Elemental Adept 24" />
 			<select type="Feat Feature" name="Energy Mastery" supports="Energy Mastery" />
 		</rules>
 	</element>
@@ -693,7 +693,7 @@
 		<description />
 		<sheet display="false" />
 		<rules>
-			<select type="Feat Feature" name="Ability Score Increase, Elemental Adept" supports="Elemental Adept" />
+			<select type="Feat Feature" name="Ability Score Increase, Elemental Adept" supports="Elemental Adept 24" />
 			<select type="Feat Feature" name="Energy Mastery" supports="Energy Mastery" />
 		</rules>
 	</element>
@@ -704,7 +704,7 @@
 		<description />
 		<sheet display="false" />
 		<rules>
-			<select type="Feat Feature" name="Ability Score Increase, Elemental Adept" supports="Elemental Adept" />
+			<select type="Feat Feature" name="Ability Score Increase, Elemental Adept" supports="Elemental Adept 24" />
 			<select type="Feat Feature" name="Energy Mastery" supports="Energy Mastery" />
 		</rules>
 	</element>
@@ -715,7 +715,7 @@
 		<description />
 		<sheet display="false" />
 		<rules>
-			<select type="Feat Feature" name="Ability Score Increase, Elemental Adept" supports="Elemental Adept" />
+			<select type="Feat Feature" name="Ability Score Increase, Elemental Adept" supports="Elemental Adept 24" />
 			<select type="Feat Feature" name="Energy Mastery" supports="Energy Mastery" />
 		</rules>
 	</element>

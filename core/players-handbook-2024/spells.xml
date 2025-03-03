@@ -73,7 +73,7 @@
 		</setters>
 	</element>
 	<element name="Alter Self" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_ALTER_SELF">
-		<supports>Sorcerer, Wizard</supports>
+		<supports>Artificer, Sorcerer, Wizard</supports>
 		<description>
 			<p>You alter your physical form. Choose one of the following options. Its effects last for the duration, during which you can take a Magic action to replace the option you chose with a different one.</p>
 			<p class="indent"><b><i>Aquatic Adaptation.</i></b> You sprout gills and grow webs between your fingers. You can breathe underwater and gain a Swim Speed equal to your Speed.</p>

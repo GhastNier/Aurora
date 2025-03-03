@@ -3225,7 +3225,7 @@
 		</setters>
 	</element>
 	<element name="Flaming Sphere" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_FLAMING_SPHERE">
-		<supports>Druid, Wizard, Damaging Spell, Spell Saving Throw</supports>
+		<supports>Druid, Sorcerer, Wizard, Damaging Spell, Spell Saving Throw</supports>
 		<description>
 			<p>You create a 5-foot-diameter sphere of fire in an unoccupied space on the ground within range. It lasts for the duration. Any creature that ends its turn within 5 feet of the sphere makes a Dexterity saving throw, taking 2d6 Fire damage on a failed save or half as much damage on a successful one.</p>
 			<p class="indent">As a Bonus Action, you can move the sphere up to 30 feet, rolling it along the ground. If you move the sphere into a creature's space, that creature makes the save against the sphere, and the sphere stops moving for the turn.</p>

@@ -1618,7 +1618,7 @@
 		</setters>
 	</element>
 	<element name="Continual Flame" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_CONTINUAL_FLAME">
-		<supports>Cleric, Druid, Wizard</supports>
+		<supports>Artificer, Cleric, Druid, Wizard</supports>
 		<description>
 			<p>A flame springs from an object that you touch. The effect casts Bright Light in a 20-foot radius and Dim Light for an additional 20 feet. It looks like a regular flame, but it creates no heat and consumes no fuel. The flame can be covered or hidden but not smothered or quenched.</p>
 		</description>

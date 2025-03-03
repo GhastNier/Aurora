@@ -1760,7 +1760,7 @@
 		</setters>
 	</element>
 	<element name="Create Food and Water" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_CREATE_FOOD_AND_WATER">
-		<supports>Cleric, Paladin</supports>
+		<supports>Artificer, Cleric, Paladin</supports>
 		<description>
 			<p>You create 45 pounds of food and 30 gallons of fresh water on the ground or in containers within range—both useful in fending off the hazards of malnutrition and dehydration. The food is bland but nourishing and looks like a food of your choice, and the water is clean. The food spoils after 24 hours if uneaten.</p>
 		</description>

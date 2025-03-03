@@ -6430,7 +6430,7 @@
 		</setters>
 	</element>
 	<element name="Revivify" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_REVIVIFY">
-		<supports>Cleric, Paladin, Artificer, Healing Spell</supports>
+		<supports>Cleric, Druid, Paladin, Ranger, Artificer, Healing Spell</supports>
 		<description>
 			<p>You touch a creature that has died within the last minute. That creature revives with 1 Hit Point. This spell can't revive a creature that has died of old age, nor does it restore any missing body parts.</p>
 		</description>

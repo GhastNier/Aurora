@@ -860,7 +860,7 @@
 		</setters>
 	</element>
 	<element name="Blur" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_BLUR">
-		<supports>Sorcerer, Wizard</supports>
+		<supports>Artificer, Sorcerer, Wizard</supports>
 		<description>
 			<p>Your body becomes blurred. For the duration, any creature has Disadvantage on attack rolls against you. An attacker is immune to this effect if it perceives you with Blindsight or Truesight.</p>
 		</description>

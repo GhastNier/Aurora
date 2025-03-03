@@ -5001,7 +5001,7 @@
 		</setters>
 	</element>
 	<element name="Mass Healing Word" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_MASS_HEALING_WORD">
-		<supports>Cleric, Healing Spell</supports>
+		<supports>Bard, Cleric, Healing Spell</supports>
 		<description>
 			<p>Up to six creatures of your choice that you can see within range regain Hit Points equal to 2d4 plus your spellcasting ability modifier.</p>
 			<p class="indent"><b><i>Using a Higher-Level Spell Slot.</i></b> The healing increases by 1d4 for each spell slot level above 3.</p>

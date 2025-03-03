@@ -692,7 +692,7 @@
 		</setters>
 	</element>
 	<element name="Bigby's Hand" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_BIGBYS_HAND">
-		<supports>Sorcerer, Wizard, Damaging Spell, Spell Saving Throw</supports>
+		<supports>Artificer, Sorcerer, Wizard, Damaging Spell, Spell Saving Throw</supports>
 		<description>
 			<p>You create a Large hand of shimmering magical energy in an unoccupied space that you can see within range. The hand lasts for the duration, and it moves at your command, mimicking the movements of your own hand.</p>
 			<p class="indent">The hand an object that has AC 20 and Hit Points equal to your Hit Point maximum. If it drops to 0 Hit Points, the spell ends. The hand doesn’t occupy its space</p>

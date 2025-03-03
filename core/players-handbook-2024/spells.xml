@@ -5280,7 +5280,7 @@
 		</setters>
 	</element>
 	<element name="Mirror Image" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_MIRROR_IMAGE">
-		<supports>Sorcerer, Warlock, Wizard</supports>
+		<supports>Bard, Sorcerer, Warlock, Wizard</supports>
 		<description>
 			<p>Three illusory duplicates of yourself appear in your space. Until the spell ends, the duplicates move with you and mimic your actions, shifting position so it's impossible to track which image is real.</p>
 			<p class="indent">Each time a creature hits you with an attack roll during the spell's duration, roll a d6 for each of your remaining duplicates. If any of the d6s rolls a 3 or higher, one of the duplicates is hit instead of you, and the duplicate is destroyed. The duplicates otherwise ignore all other damage and effects. The spell ends when all three duplicates are destroyed.</p>

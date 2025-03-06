@@ -1187,6 +1187,9 @@
 		</setters>
 	</element>
 
+	<!-- an element that you should grant in a background to allow for background ASIs -->
+	<element name="Background Ability Score Improvement" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_BACKGROUND_ASI" />
+
 	<!--PHB24 General Feat Ability Score Increase-->
 	<element name="Ability Score Increase +2 (Strength)" type="Ability Score Improvement" source="Internal" id="ID_WOTC_PHB24_GENERAL_ASI_2_STRENGTH">
 		<compendium display="false" />

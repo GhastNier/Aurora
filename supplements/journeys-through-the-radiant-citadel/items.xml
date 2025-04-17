@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<update version="0.0.1">
-			<file name="items.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/journeys-through-the-radiant-citadel/items.xml" />
+			<file name="items.xml" url="https://raw.githubusercontent.com/GhastNier/Aurora/master/supplements/journeys-through-the-radiant-citadel/items.xml" />
 		</update>
 	</info>
 

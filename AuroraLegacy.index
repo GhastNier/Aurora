@@ -9,7 +9,7 @@
 		</update>
 	</info>
 	<files>
-		<file name="core.index" url="https://raw.githubusercontent.com/GhastNier/Aurora/master/core/core.index" />
+		<file name="core.index" url="https://github.com/GhastNier/Aurora/raw/refs/heads/master/core.index" />
 		<file name="supplements.index" url="https://raw.githubusercontent.com/GhastNier/Aurora/master/supplements.index" />
 		<file name="unearthed-arcana.index" url="https://raw.githubusercontent.com/GhastNier/Aurora/master/unearthed-arcana.index" />
 		<file name="collaborations.index" url="https://raw.githubusercontent.com/GhastNier/Aurora/master/collaborations.index" />

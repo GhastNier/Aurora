@@ -10,9 +10,9 @@
 	</info>
 	<files>
 		<file name="internal.xml" url="https://raw.githubusercontent.com/GhastNier/Aurora/master/core/internal.xml" />
-        <file name="dungeon-masters-guide-2024.index" url="https://raw.githubusercontent.com/GhastNier/Aurora/master/core/dungeon-masters-guide-2024.index" />
-		<file name="dungeon-masters-guide.index" url="https://raw.githubusercontent.com/GhastNier/Aurora/master/core/dungeon-masters-guide.index" />
-		<file name="monster-manual.index" url="https://raw.githubusercontent.com/GhastNier/Aurora/master/core/monster-manual.index" />
-		<file name="players-handbook-2024.index" url="https://raw.githubusercontent.com/GhastNier/Aurora/master/core/players-handbook-2024.index" />
+		<file name="dungeon-masters-guide.index" url="https://raw.githubusercontent.com/GhastNier/Aurora/master/dungeon-masters-guide.index" />
+		<file name="players-handbook.index" url="https://raw.githubusercontent.com/GhastNier/Aurora/master/code/players-handbook.index" />
+		<file name="monster-manual.index" url="https://raw.githubusercontent.com/GhastNier/Aurora/master/monster-manual.index" />
+		<file name="unearthed-arcana.index" url="https://raw.githubusercontent.com/GhastNier/Aurora/master/unhearthed-arcana.index" />
 	</files>
 </index>

@@ -5,7 +5,7 @@
 		<description></description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook">Wizards of the Coast</author>
 		<update version="0.0.1">
-			<file name="items-instrument.xml" url="https://raw.githubusercontent.com/GhastNier/Aurora/master/core/players-handbook/items/items-instrument.xml" />
+			<file name="items-instrument.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/core/players-handbook/items/items-instrument.xml" />
 		</update>
 	</info>
 

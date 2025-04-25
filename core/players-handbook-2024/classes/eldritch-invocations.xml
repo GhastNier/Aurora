@@ -6,7 +6,7 @@
 
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
 		<update version="0.0.5">
-			<file name="eldritch-invocations.xml" url="https://raw.githubusercontent.com/GhastNier/Aurora/master/core/players-handbook-2024/classes/eldritch-invocations.xml" />
+			<file name="eldritch-invocations.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/core/players-handbook-2024/classes/eldritch-invocations.xml" />
 		</update>
 	</info>
 
@@ -1026,7 +1026,17 @@
 			<description>When you cast True Strike, add {{agonizing blast:damage}} to its damage roll.</description>
 		</sheet>
 	</element>
-
+	<element name="Sacred Flame" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_AGONIZING_BLAST_SACRED_FLAME">
+		<compendium display="false" />
+		<supports>Agonizing Blast Cantrip</supports>
+		<requirements>(ID_WOTC_PHB_SPELL_SACRED_FLAME||ID_WOTC_PHB24_SPELL_SACRED_FLAME)</requirements>
+		<description>
+			<p>When you cast Sacred Flame, add your Charisma modifier to its damage roll.</p>
+		</description>
+		<sheet alt="Agonizing Blast: Sacred Flame">
+			<description>When you cast Sacred Flame, add {{agonizing blast:damage}} to its damage roll.</description>
+		</sheet>
+	</element>
 	<!--Eldritch Spear Spell "Selects"-->
 	<element name="Chill Touch" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_ELDRITCH_SPEAR_CHILL_TOUCH">
 		<compendium display="false" />
@@ -1138,7 +1148,17 @@
 			<description>When you cast Toll the Dead, its range increases by {{eldritch spear:range}} feet.</description>
 		</sheet>
 	</element>
-
+	<element name="Sacred Flame" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_ELDRITCH_SPEAR_SACRED_FLAME">
+ 		<compendium display="false" />
+ 		<supports>Eldritch Spear Cantrip</supports>
+ 		<requirements>(ID_WOTC_PHB_SPELL_SACRED_FLAME||ID_WOTC_PHB24_SPELL_SACRED_FLAME)</requirements>
+ 		<description>
+ 			<p>When you cast Sacred Flame, its range increases by a number of feet equal to 30 times your Warlock level.</p>
+ 		</description>
+ 		<sheet alt="Eldritch Spear: Sacred Flame">
+ 			<description>When you cast Sacred Flame, its range increases by {{eldritch spear:range}} feet.</description>
+ 		</sheet>
+ 	</element>
 	<!--Repelling Blast Spell "Selects"-->
 	<element name="Booming Blade" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_REPELLING_BLAST_BOOMING_BLADE">
 		<compendium display="false" />
@@ -1217,5 +1237,15 @@
 			<description>When you hit a Large or smaller creature with True Strike, you can push that creature up to 10 feet straight away from you.</description>
 		</sheet>
 	</element>
-
+	<element name="Sacred Flame" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_REPELLING_BLAST_SACRED_FLAME">
+ 		<compendium display="false" />
+ 		<supports>Repelling Blast Cantrip</supports>
+ 		<requirements>(ID_WOTC_PHB_SPELL_SACRED_FLAME||ID_WOTC_PHB24_SPELL_SACRED_FLAME)</requirements>
+ 		<description>
+ 			<p>When you cast Sacred Flame, you can push that creature up to 10 feet straight away from you.</p>
+ 		</description>
+ 		<sheet alt="Repelling Blast: Sacred Flame">
+ 			<description>When you cast Sacred Flame, you can push that creature up to 10 feet straight away from you.</description>
+ 		</sheet>
+ 	</element>
 </elements>

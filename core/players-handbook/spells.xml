@@ -3,7 +3,7 @@
 	<info>
 		<name>Spells</name>
 		<update version="0.5.5">
-			<file name="spells.xml" url="https://raw.githubusercontent.com/GhastNier/Aurora/master/core/players-handbook/spells.xml" />
+			<file name="spells.xml" url="https://raw.githubusercontent.com/GhastNier/Aurora/refs/heads/master/core/players-handbook/spells.xml" />
 		</update>
 	</info>
 

@@ -3,7 +3,7 @@
 	<info>
 		<name>Tabaxi from Monsters of the Multiverse</name>
 		<update version="0.0.2">
-			<file name="race-tabaxi.xml" url="https://raw.githubusercontent.com/GhastNier/Aurora/master/supplements/monsters-of-the-multiverse/race-tabaxi.xml" />
+			<file name="race-tabaxi.xml" url="https://raw.githubusercontent.com/GhastNier/Aurora/refs/heads/master/supplements/monsters-of-the-multiverse/race-tabaxi.xml" />
 		</update>
 	</info>
 

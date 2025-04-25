@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<update version="0.0.2">
-			<file name="cleric-light.xml" url="https://raw.githubusercontent.com/GhastNier/Aurora/master/core/players-handbook/archetypes/cleric-light.xml" />
+			<file name="cleric-light.xml" url="https://raw.githubusercontent.com/GhastNier/Aurora/refs/heads/master/core/players-handbook/archetypes/cleric-light.xml" />
 		</update>
 	</info>
 

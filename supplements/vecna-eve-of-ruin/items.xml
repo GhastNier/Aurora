@@ -4,7 +4,7 @@
 		<name>Items</name>
 		<description>Items and Vehicles from Vecna: Eve of Ruin</description>
 		<update version="0.0.1">
-			<file name="items.xml" url="https://raw.githubusercontent.com/GhastNier/Aurora/master/supplements/vecna-eve-of-ruin/items.xml" />
+			<file name="items.xml" url="https://raw.githubusercontent.com/GhastNier/Aurora/refs/heads/master/supplements/vecna-eve-of-ruin/items.xml" />
 		</update>
 	</info>
 

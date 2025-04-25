@@ -16,15 +16,15 @@ _**Additionally**_, old characters may require re-selecting some options, due to
 ### Download Options:
 <details>
   <summary><b>Option 1: All In One Download</b></summary>
-  • Master Index: https://raw.githubusercontent.com/GhastNier/Aurora/master/AuroraLegacy.index
+  • Master Index: https://raw.githubusercontent.com/GhastNier/Aurora/refs/heads/master/AuroraLegacy.index
 </details>
 <hr style="width:750px; height:2px; margin-top:-10px; margin-bottom:5px; background-color:rgb(150,150,150)">
 <details>
   <summary><b>Option 2: Individual Indexes Download</b> </summary>
- • Core Index: https://raw.githubusercontent.com/GhastNier/Aurora/master/core.index <b>(Required by following Indexes)</b> <br>
-  • Supplements Index: https://raw.githubusercontent.com/GhastNier/Aurora/master/supplements.index <b>(Requires Core Index)</b> <br>
-  • Unearthed Arcana Index: https://raw.githubusercontent.com/GhastNier/Aurora/master/unearthed-arcana.index <b>(Requires Core Index)</b> <br>
-  • Collaborations Index: https://raw.githubusercontent.com/GhastNier/Aurora/master/collaborations.index <b>(Requires Core Index)</b>
+ • Core Index: https://raw.githubusercontent.com/GhastNier/Aurora/refs/heads/master/core.index <b>(Required by following Indexes)</b> <br>
+  • Supplements Index: https://raw.githubusercontent.com/GhastNier/Aurora/refs/heads/master/supplements.index <b>(Requires Core Index)</b> <br>
+  • Unearthed Arcana Index: https://raw.githubusercontent.com/GhastNier/Aurora/refs/heads/master/unearthed-arcana.index <b>(Requires Core Index)</b> <br>
+  • Collaborations Index: https://raw.githubusercontent.com/GhastNier/Aurora/refs/heads/master/collaborations.index <b>(Requires Core Index)</b>
 </details>
 
 ## Disclaimer

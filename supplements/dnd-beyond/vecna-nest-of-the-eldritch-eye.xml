@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<update version="0.0.1">
-			<file name="vecna-nest-of-the-eldritch-eye.xml" url="https://raw.githubusercontent.com/GhastNier/Aurora/master/supplements/dnd-beyond/vecna-nest-of-the-eldritch-eye.xml" />
+			<file name="vecna-nest-of-the-eldritch-eye.xml" url="https://raw.githubusercontent.com/GhastNier/Aurora/refs/heads/master/supplements/dnd-beyond/vecna-nest-of-the-eldritch-eye.xml" />
 		</update>
 	</info>
 
@@ -14,7 +14,7 @@
 		<setters>
 			<set name="abbreviation">VNEE</set>
 			<set name="url">https://marketplace.dndbeyond.com/category/SRC-00135</set>
-			<set name="image">https://raw.githubusercontent.com/GhastNier/Aurora/master/supplements/dnd-beyond/VNEE.png</set>
+			<set name="image">https://raw.githubusercontent.com/GhastNier/Aurora/refs/heads/master/supplements/dnd-beyond/VNEE.png</set>
 			<set name="author" abbreviation="WOTC" url="http://dnd.wizards.com">Wizards of the Coast, D&amp;D Beyond</set>
 			<set name="official">true</set>
 			<set name="supplement">true</set>

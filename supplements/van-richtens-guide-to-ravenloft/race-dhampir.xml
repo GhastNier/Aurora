@@ -3,7 +3,7 @@
 	<info>
 		<name>Dhampir</name>
 		<update version="0.0.2">
-			<file name="race-dhampir.xml" url="https://raw.githubusercontent.com/GhastNier/Aurora/master/supplements/van-richtens-guide-to-ravenloft/race-dhampir.xml" />
+			<file name="race-dhampir.xml" url="https://raw.githubusercontent.com/GhastNier/Aurora/refs/heads/master/supplements/van-richtens-guide-to-ravenloft/race-dhampir.xml" />
 		</update>
 	</info>
 

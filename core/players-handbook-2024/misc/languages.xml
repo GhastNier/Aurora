@@ -223,6 +223,7 @@
             <set name="speakers">Undead, Shadow Magic Connection</set>
             <set name="script">Draconic</set>
         </setters>
+        <rules/>
     </element>
 
     <element name="Druidic" type="Language" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_LANGUAGE_DRUIDIC">

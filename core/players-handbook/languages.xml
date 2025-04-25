@@ -187,7 +187,20 @@
 			<set name="script">Elvish</set>
 		</setters>
 	</element>
-
+	<element name="Shadow Cant" type="Language" source="Exandria" id="ID_LANGUAGE_SHADOW_CANT">
+		<supports>Exotic</supports>
+		<description>
+			<p>Shadow Cant seems to be a form of spoken communication known by certain individuals connected with shadow
+				magic.
+			</p>
+			<p>It is also understood by undeads and spoken by intelligent ones</p>
+		</description>
+		<setters>
+			<set name="exotic">true</set>
+			<set name="speakers">Undead, Shadow Magic Connection</set>
+			<set name="script">Draconic</set>
+		</setters>
+	</element>
 	<!-- secret -->
 	<element name="Druidic" type="Language" source="Player’s Handbook" id="ID_LANGUAGE_DRUIDIC">
 		<supports>Secret</supports>
@@ -209,18 +222,5 @@
 			<set name="speakers">Rogues</set>
 		</setters>
 	</element>
-	<element name="Shadow Cant" type="Language" source="Critical Role" id="ID_LANGUAGE_SHADOW_CANT">
-		<supports>Exotic</supports>
-		<description>
-			<p>Shadow Cant seems to be a form of spoken communication known by certain individuals connected with shadow
-				magic.
-			</p>
-			<p>It is also understood by undeads and spoken by intelligent ones</p>
-		</description>
-		<setters>
-			<set name="exotic">true</set>
-			<set name="speakers">Undead, Shadow Magic Connection</set>
-			<set name="script">Draconic</set>
-		</setters>
-	</element>
+
 </elements>

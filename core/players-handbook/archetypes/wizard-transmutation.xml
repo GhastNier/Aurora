@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<update version="0.0.1">
-			<file name="wizard-transmutation.xml" url="https://raw.githubusercontent.com/GhastNier/Aurora/refs/heads/master/core/players-handbook/archetypes/wizard-transmutation.xml" />
+			<file name="wizard-transmutation.xml" url="https://raw.githubusercontent.com/GhastNier/Aurora/master/core/players-handbook/archetypes/wizard-transmutation.xml" />
 		</update>
 	</info>
 

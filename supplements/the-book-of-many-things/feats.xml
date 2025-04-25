@@ -3,7 +3,7 @@
 	<info>
 		<name>Feats</name>
 		<update version="0.0.1">
-			<file name="feats.xml" url="https://raw.githubusercontent.com/GhastNier/Aurora/refs/heads/master/supplements/the-book-of-many-things/feats.xml" />
+			<file name="feats.xml" url="https://raw.githubusercontent.com/GhastNier/Aurora/master/supplements/the-book-of-many-things/feats.xml" />
 		</update>
 	</info>
 

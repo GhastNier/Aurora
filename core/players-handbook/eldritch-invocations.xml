@@ -3,7 +3,7 @@
 	<info>
 		<name></name>
 		<update version="0.0.1">
-			<file name="eldritch-invocations.xml" url="https://raw.githubusercontent.com/GhastNier/Aurora/refs/heads/master/core/players-handbook/eldritch-invocations.xml" />
+			<file name="eldritch-invocations.xml" url="https://raw.githubusercontent.com/GhastNier/Aurora/master/core/players-handbook/eldritch-invocations.xml" />
 		</update>
 	</info>
 

@@ -5,13 +5,13 @@
 		<description>All indexs managed by the Aurora Legacy Team.</description>
 		<author url="https://github.com/GhastNier/Aurora">Aurora Legacy Team</author>
 		<update version="0.0.1">
-			<file name="AuroraLegacy.index" url="https://raw.githubusercontent.com/GhastNier/Aurora/refs/heads/master/AuroraLegacy.index" />
+			<file name="AuroraLegacy.index" url="https://raw.githubusercontent.com/GhastNier/Aurora/master/AuroraLegacy.index" />
 		</update>
 	</info>
 	<files>
-		<file name="core.index" url="https://raw.githubusercontent.com/GhastNier/Aurora/refs/heads/master/core.index" />
-		<file name="supplements.index" url="https://raw.githubusercontent.com/GhastNier/Aurora/refs/heads/master/supplements.index" />
-		<file name="unearthed-arcana.index" url="https://raw.githubusercontent.com/GhastNier/Aurora/refs/heads/master/unearthed-arcana.index" />
-		<file name="taldorei-campaign-setting.index" url="https://raw.githubusercontent.com/GhastNier/Aurora/refs/heads/master/taldorei-campaign-setting.index" />
+		<file name="core.index" url="https://raw.githubusercontent.com/GhastNier/Aurora/master/core.index" />
+		<file name="supplements.index" url="https://raw.githubusercontent.com/GhastNier/Aurora/master/supplements.index" />
+		<file name="unearthed-arcana.index" url="https://raw.githubusercontent.com/GhastNier/Aurora/master/unearthed-arcana.index" />
+		<file name="taldorei-campaign-setting.index" url="https://raw.githubusercontent.com/GhastNier/Aurora/master/taldorei-campaign-setting.index" />
 	</files>
 </index>

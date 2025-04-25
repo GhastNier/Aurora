@@ -3,7 +3,7 @@
 	<info>
 		<name>Magic Items from Strixhaven: A Curriculum Of Chaos</name>
 		<update version="0.0.1">
-			<file name="items.xml" url="https://raw.githubusercontent.com/GhastNier/Aurora/refs/heads/master/supplements/strixhaven-a-curriculum-of-chaos/items.xml" />
+			<file name="items.xml" url="https://raw.githubusercontent.com/GhastNier/Aurora/master/supplements/strixhaven-a-curriculum-of-chaos/items.xml" />
 		</update>
 	</info>
 

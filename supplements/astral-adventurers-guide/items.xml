@@ -4,7 +4,7 @@
 		<name>Items</name>
 		<description>Items and Vehicles from Astral Adventurer's Guide</description>
 		<update version="0.0.2">
-			<file name="items.xml" url="https://raw.githubusercontent.com/GhastNier/Aurora/refs/heads/master/supplements/astral-adventurers-guide/items.xml" />
+			<file name="items.xml" url="https://raw.githubusercontent.com/GhastNier/Aurora/master/supplements/astral-adventurers-guide/items.xml" />
 		</update>
 	</info>
 
